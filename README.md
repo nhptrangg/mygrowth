@@ -3,6 +3,11 @@ To get started with your project, you'll first need to install the dependencies 
 
 ```
 npm install
+# Install Parcel.js
+npm install parcel-bundler --save-dev
+
+# Install Storybook
+npx -p @storybook/cli sb init
 ```
 
 Then, you'll be able to run a development version of the project with:
