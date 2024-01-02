@@ -13,7 +13,7 @@
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.8.1"
+    "react-router-dom": "^6.21.1"
   },
   "devDependencies": {
     "@babel/core": "^7.21.4",
@@ -29,6 +29,7 @@
     "@storybook/testing-library": "0.2.0",
     "htmlnano": "2.0.3",
     "parcel": "^2.8.0",
+    "parcel-bundler": "^1.12.5",
     "parcel-reporter-static-files-copy": "^1.5.0",
     "process": "^0.11.10",
     "storybook": "7.0.3"

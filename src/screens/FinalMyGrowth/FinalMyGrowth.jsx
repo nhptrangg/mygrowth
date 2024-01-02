@@ -1,6 +1,8 @@
 import React from "react";
 import { SolidStatusLock1 } from "../../icons/SolidStatusLock1";
 import "./style.css";
+import Button from './Button/Button';
+import { Link } from 'react-router-dom';
 
 export const FinalMyGrowth = () => {
   return (
@@ -29,7 +31,7 @@ export const FinalMyGrowth = () => {
           <div className="overlap-group-2">
             <div className="text-wrapper-5">Appreciation</div>
             <div className="see-more-wrapper">
-              <img className="see-more" alt="See more" src="https://c.animaapp.com/1ErxMTJR/img/see-more.png" />
+            <Link to="/other"><Button>See more</Button></Link>
             </div>
           </div>
           <div className="group-wrapper">
@@ -175,3 +177,5 @@ export const FinalMyGrowth = () => {
     </div>
   );
 };
+
+export default FinalMyGrowth;
