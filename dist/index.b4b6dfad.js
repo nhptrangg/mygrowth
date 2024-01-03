@@ -2947,25 +2947,64 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
-var _clientDefault = parcelHelpers.interopDefault(_client);
+var _reactRouterDom = require("react-router-dom");
 var _finalMyGrowth = require("./screens/FinalMyGrowth/FinalMyGrowth");
 var _finalMyGrowthDefault = parcelHelpers.interopDefault(_finalMyGrowth);
 var _appreciation = require("./screens/Appreciation/Appreciation");
 var _appreciationDefault = parcelHelpers.interopDefault(_appreciation);
 const app = document.getElementById("root");
-const root = (0, _clientDefault.default).createRoot(app);
-root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _finalMyGrowthDefault.default), {}, void 0, false, {
+const root = (0, _client.createRoot)(app);
+const App = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.BrowserRouter), {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Routes), {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "/",
+                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _finalMyGrowthDefault.default), {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/index.jsx",
+                        lineNumber: 14,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "/Appreciation",
+                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _appreciationDefault.default), {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/index.jsx",
+                        lineNumber: 15,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/index.jsx",
+                lineNumber: 13,
+                columnNumber: 5
+            }, undefined)
+        }, void 0, false, {
+            fileName: "src/index.jsx",
+            lineNumber: 12,
+            columnNumber: 5
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/index.jsx",
+        lineNumber: 11,
+        columnNumber: 3
+    }, undefined);
+_c = App;
+root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
     fileName: "src/index.jsx",
-    lineNumber: 8,
+    lineNumber: 21,
     columnNumber: 13
 }, undefined));
+var _c;
+$RefreshReg$(_c, "App");
 
   $parcel$ReactRefreshHelpers$98a3.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./screens/FinalMyGrowth/FinalMyGrowth":"cC9Ek","./screens/Appreciation/Appreciation":"4FlxK","@parcel/transformer-js/src/esmodule-helpers.js":"9FYyo","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"77JU4"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","react-router-dom":"9xmpe","./screens/FinalMyGrowth/FinalMyGrowth":"cC9Ek","./screens/Appreciation/Appreciation":"4FlxK","@parcel/transformer-js/src/esmodule-helpers.js":"9FYyo","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"77JU4"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("ee51401569654d91");
 
@@ -27152,1251 +27191,7 @@ module.exports = require("2b3f6dd449df6c8a");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{}],"cC9Ek":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$4114 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$4114.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "FinalMyGrowth", ()=>FinalMyGrowth);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _solidStatusLock1 = require("../../icons/SolidStatusLock1");
-var _styleCss = require("./style.css");
-var _button = require("./Button/Button");
-var _buttonDefault = parcelHelpers.interopDefault(_button);
-var _reactRouterDom = require("react-router-dom");
-const FinalMyGrowth = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "FINAL-my-growth",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "div",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "text-wrapper",
-                    children: "My Growth"
-                }, void 0, false, {
-                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                    lineNumber: 11,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "overlap",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            className: "group",
-                            alt: "Group",
-                            src: "https://c.animaapp.com/1ErxMTJR/img/group-1732.png"
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 13,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "text-wrapper-2",
-                            children: "Name"
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 14,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "overlap-group",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                    className: "rectangle",
-                                    alt: "Rectangle",
-                                    src: "https://c.animaapp.com/1ErxMTJR/img/rectangle-2678.png"
-                                }, void 0, false, {
-                                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                    lineNumber: 16,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                    className: "vector",
-                                    alt: "Vector",
-                                    src: "https://c.animaapp.com/1ErxMTJR/img/vector-2.png"
-                                }, void 0, false, {
-                                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                    lineNumber: 17,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "text-wrapper-3",
-                                    children: "0"
-                                }, void 0, false, {
-                                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                    lineNumber: 18,
-                                    columnNumber: 13
-                                }, undefined)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 15,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            className: "img",
-                            alt: "Group",
-                            src: "https://c.animaapp.com/1ErxMTJR/img/group-1733.png"
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 20,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "overlap-2",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                    className: "growth-circles",
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                            className: "span",
-                                            children: "Growth"
-                                        }, void 0, false, {
-                                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                            lineNumber: 23,
-                                            columnNumber: 15
-                                        }, undefined),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                            className: "text-wrapper-4",
-                                            children: "Circles"
-                                        }, void 0, false, {
-                                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                            lineNumber: 24,
-                                            columnNumber: 15
-                                        }, undefined)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                    lineNumber: 22,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                    className: "vector-2",
-                                    alt: "Vector",
-                                    src: "https://c.animaapp.com/1ErxMTJR/img/vector-1.svg"
-                                }, void 0, false, {
-                                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                    lineNumber: 26,
-                                    columnNumber: 13
-                                }, undefined)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 21,
-                            columnNumber: 11
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                    lineNumber: 12,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    className: "p",
-                    children: "Overall data collected over all circles attended"
-                }, void 0, false, {
-                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                    lineNumber: 29,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "overlap-3",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "overlap-group-2",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "text-wrapper-5",
-                                    children: "Appreciation"
-                                }, void 0, false, {
-                                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                    lineNumber: 32,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "see-more-wrapper",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                        to: "/other",
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _buttonDefault.default), {
-                                            children: "See more"
-                                        }, void 0, false, {
-                                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                            lineNumber: 34,
-                                            columnNumber: 31
-                                        }, undefined)
-                                    }, void 0, false, {
-                                        fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                        lineNumber: 34,
-                                        columnNumber: 13
-                                    }, undefined)
-                                }, void 0, false, {
-                                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                    lineNumber: 33,
-                                    columnNumber: 13
-                                }, undefined)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 31,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "group-wrapper",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                className: "group-2",
-                                alt: "Group",
-                                src: "https://c.animaapp.com/1ErxMTJR/img/group-891.png"
-                            }, void 0, false, {
-                                fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                lineNumber: 38,
-                                columnNumber: 13
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 37,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "text-wrapper-6",
-                            children: "x3"
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 40,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "img-wrapper",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                className: "group-3",
-                                alt: "Group",
-                                src: "https://c.animaapp.com/1ErxMTJR/img/group-892.png"
-                            }, void 0, false, {
-                                fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                lineNumber: 42,
-                                columnNumber: 13
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 41,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "vector-wrapper",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                className: "vector-3",
-                                alt: "Vector",
-                                src: "https://c.animaapp.com/1ErxMTJR/img/vector.png"
-                            }, void 0, false, {
-                                fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                lineNumber: 45,
-                                columnNumber: 13
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 44,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "text-wrapper-7",
-                            children: "x2"
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 47,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "text-wrapper-8",
-                            children: "0"
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 48,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "text-wrapper-9",
-                            children: "Efforts"
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 49,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "care-support",
-                            children: [
-                                "Care &",
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                    lineNumber: 52,
-                                    columnNumber: 13
-                                }, undefined),
-                                "Support"
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 50,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "text-wrapper-10",
-                            children: "Role"
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 55,
-                            columnNumber: 11
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                    lineNumber: 30,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "overlap-4",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "overlap-group-2",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "text-wrapper-5",
-                                    children: "Badges & Achievements"
-                                }, void 0, false, {
-                                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                    lineNumber: 59,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "div-wrapper",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "text-wrapper-11",
-                                        children: "See more"
-                                    }, void 0, false, {
-                                        fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                        lineNumber: 61,
-                                        columnNumber: 15
-                                    }, undefined)
-                                }, void 0, false, {
-                                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                    lineNumber: 60,
-                                    columnNumber: 13
-                                }, undefined)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 58,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            className: "group-4",
-                            alt: "Group",
-                            src: "https://c.animaapp.com/1ErxMTJR/img/group-1739.png"
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 64,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "ellipse-wrapper",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "ellipse"
-                            }, void 0, false, {
-                                fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                lineNumber: 66,
-                                columnNumber: 13
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 65,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "group-5",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "ellipse"
-                            }, void 0, false, {
-                                fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                lineNumber: 69,
-                                columnNumber: 13
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 68,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "group-6",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "ellipse"
-                            }, void 0, false, {
-                                fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                lineNumber: 72,
-                                columnNumber: 13
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 71,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "group-7",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "ellipse"
-                            }, void 0, false, {
-                                fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                lineNumber: 75,
-                                columnNumber: 13
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 74,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "text-wrapper-12",
-                            children: "Badges"
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 77,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "text-wrapper-13",
-                            children: "Achievements"
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 78,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "overlap-wrapper",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "overlap-5",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "group-8",
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "ellipse-2"
-                                        }, void 0, false, {
-                                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                            lineNumber: 82,
-                                            columnNumber: 17
-                                        }, undefined)
-                                    }, void 0, false, {
-                                        fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                        lineNumber: 81,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _solidStatusLock1.SolidStatusLock1), {
-                                        className: "solid-status-lock"
-                                    }, void 0, false, {
-                                        fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                        lineNumber: 84,
-                                        columnNumber: 15
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                lineNumber: 80,
-                                columnNumber: 13
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 79,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            className: "group-9",
-                            alt: "Group",
-                            src: "https://c.animaapp.com/1ErxMTJR/img/group-1807.png"
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 87,
-                            columnNumber: 11
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                    lineNumber: 57,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "overlap-6",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "overlap-group-2",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "text-wrapper-5",
-                                    children: "Topics Done"
-                                }, void 0, false, {
-                                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                    lineNumber: 91,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "div-wrapper",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "text-wrapper-11",
-                                        children: "See more"
-                                    }, void 0, false, {
-                                        fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                        lineNumber: 93,
-                                        columnNumber: 15
-                                    }, undefined)
-                                }, void 0, false, {
-                                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                    lineNumber: 92,
-                                    columnNumber: 13
-                                }, undefined)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 90,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "overlap-7",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "text-wrapper-14",
-                                children: "#1"
-                            }, void 0, false, {
-                                fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                lineNumber: 97,
-                                columnNumber: 13
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 96,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "overlap-8",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "text-wrapper-15",
-                                children: "#2"
-                            }, void 0, false, {
-                                fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                lineNumber: 100,
-                                columnNumber: 13
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 99,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "overlap-9",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "text-wrapper-16",
-                                children: "#3"
-                            }, void 0, false, {
-                                fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                lineNumber: 103,
-                                columnNumber: 13
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 102,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "text-wrapper-17",
-                            children: "Burn Out"
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 105,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "text-wrapper-18",
-                            children: "Life\u2019s Purpose"
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 106,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "text-wrapper-19",
-                            children: "Loneliness"
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 107,
-                            columnNumber: 11
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                    lineNumber: 89,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "overlap-10",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "overlap-11",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "text-wrapper-20",
-                                children: "My Roles"
-                            }, void 0, false, {
-                                fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                lineNumber: 111,
-                                columnNumber: 13
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 110,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            className: "group-10",
-                            alt: "Group",
-                            src: "https://c.animaapp.com/1ErxMTJR/img/group-1737.png"
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 113,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "rectangle-2"
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 114,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "rectangle-3"
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 115,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "rectangle-4"
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 116,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "rectangle-5"
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 117,
-                            columnNumber: 11
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                    lineNumber: 109,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "overlap-12",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "overlap-11",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "text-wrapper-21",
-                                children: "Special Thanks"
-                            }, void 0, false, {
-                                fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                lineNumber: 121,
-                                columnNumber: 13
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 120,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            className: "lorem-ipsum-dolor",
-                            alt: "Lorem ipsum dolor",
-                            src: "https://c.animaapp.com/1ErxMTJR/img/lorem-ipsum-dolor-sit-amet-consectetur--pulvinar-vestibulum-nibh.png"
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 123,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "overlap-13",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "text-wrapper-22",
-                                    children: "Name"
-                                }, void 0, false, {
-                                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                    lineNumber: 129,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "overlap-group-wrapper",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "overlap-group-3",
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "text-wrapper-23",
-                                            children: "NL"
-                                        }, void 0, false, {
-                                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                            lineNumber: 132,
-                                            columnNumber: 17
-                                        }, undefined)
-                                    }, void 0, false, {
-                                        fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                        lineNumber: 131,
-                                        columnNumber: 15
-                                    }, undefined)
-                                }, void 0, false, {
-                                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                    lineNumber: 130,
-                                    columnNumber: 13
-                                }, undefined)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 128,
-                            columnNumber: 11
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                    lineNumber: 119,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "overlap-14",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "overlap-group-2",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "text-wrapper-24",
-                                    children: "My Wellbeing"
-                                }, void 0, false, {
-                                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                    lineNumber: 139,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "div-wrapper",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "text-wrapper-11",
-                                        children: "See more"
-                                    }, void 0, false, {
-                                        fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                        lineNumber: 141,
-                                        columnNumber: 15
-                                    }, undefined)
-                                }, void 0, false, {
-                                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                    lineNumber: 140,
-                                    columnNumber: 13
-                                }, undefined)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 138,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            className: "element",
-                            alt: "Element",
-                            src: "https://c.animaapp.com/1ErxMTJR/img/32--40.png"
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 144,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            className: "your-average-rating",
-                            alt: "Your average rating",
-                            src: "https://c.animaapp.com/1ErxMTJR/img/your-average-rating.png"
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 145,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "text-wrapper-25",
-                            children: "Individually"
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 150,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "text-wrapper-26",
-                            children: "8"
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 151,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "text-wrapper-27",
-                            children: "Interpersonally"
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 152,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "text-wrapper-28",
-                            children: "8"
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 153,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "text-wrapper-29",
-                            children: "Socially"
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 154,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "text-wrapper-30",
-                            children: "8"
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 155,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "text-wrapper-31",
-                            children: "Overall"
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 156,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "text-wrapper-32",
-                            children: "8"
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 157,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            className: "line",
-                            alt: "Line",
-                            src: "https://c.animaapp.com/1ErxMTJR/img/line-208.svg"
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 158,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "text-wrapper-33",
-                            children: "Scores"
-                        }, void 0, false, {
-                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 159,
-                            columnNumber: 11
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                    lineNumber: 137,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    className: "group-11",
-                    alt: "Group",
-                    src: "https://c.animaapp.com/1ErxMTJR/img/group-1831.png"
-                }, void 0, false, {
-                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                    lineNumber: 161,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "group-12",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "overlap-15",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "overlap-group-2",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "text-wrapper-34",
-                                        children: "Self Awareness Tools"
-                                    }, void 0, false, {
-                                        fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                        lineNumber: 165,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "div-wrapper",
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "text-wrapper-35",
-                                            children: "See more"
-                                        }, void 0, false, {
-                                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                            lineNumber: 167,
-                                            columnNumber: 17
-                                        }, undefined)
-                                    }, void 0, false, {
-                                        fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                        lineNumber: 166,
-                                        columnNumber: 15
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                lineNumber: 164,
-                                columnNumber: 13
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "text-wrapper-36",
-                                children: "Top 3 Tools used"
-                            }, void 0, false, {
-                                fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                lineNumber: 170,
-                                columnNumber: 13
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                className: "mask-group",
-                                alt: "Mask group",
-                                src: "https://c.animaapp.com/1ErxMTJR/img/mask-group-2.png"
-                            }, void 0, false, {
-                                fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                lineNumber: 171,
-                                columnNumber: 13
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                className: "mask-group-2",
-                                alt: "Mask group",
-                                src: "https://c.animaapp.com/1ErxMTJR/img/mask-group-1.png"
-                            }, void 0, false, {
-                                fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                lineNumber: 172,
-                                columnNumber: 13
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                className: "mask-group-3",
-                                alt: "Mask group",
-                                src: "https://c.animaapp.com/1ErxMTJR/img/mask-group.png"
-                            }, void 0, false, {
-                                fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                lineNumber: 173,
-                                columnNumber: 13
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                        lineNumber: 163,
-                        columnNumber: 11
-                    }, undefined)
-                }, void 0, false, {
-                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                    lineNumber: 162,
-                    columnNumber: 9
-                }, undefined)
-            ]
-        }, void 0, true, {
-            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-            lineNumber: 10,
-            columnNumber: 7
-        }, undefined)
-    }, void 0, false, {
-        fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-        lineNumber: 9,
-        columnNumber: 5
-    }, undefined);
-};
-_c = FinalMyGrowth;
-exports.default = FinalMyGrowth;
-var _c;
-$RefreshReg$(_c, "FinalMyGrowth");
-
-  $parcel$ReactRefreshHelpers$4114.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../icons/SolidStatusLock1":"cZb2L","./style.css":"7Wz3R","./Button/Button":"6wURN","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"9FYyo","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"77JU4"}],"cZb2L":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "SolidStatusLock1", ()=>(0, _solidStatusLock1.SolidStatusLock1));
-var _solidStatusLock1 = require("./SolidStatusLock1");
-
-},{"./SolidStatusLock1":"34QaL","@parcel/transformer-js/src/esmodule-helpers.js":"9FYyo"}],"34QaL":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$921e = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$921e.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "SolidStatusLock1", ()=>SolidStatusLock1);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-const SolidStatusLock1 = ({ className })=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-        className: `solid-status-lock-1 ${className}`,
-        fill: "none",
-        height: "31",
-        viewBox: "0 0 31 31",
-        width: "31",
-        xmlns: "http://www.w3.org/2000/svg",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-            className: "path",
-            clipRule: "evenodd",
-            d: "M9.50949 10.023L9.94975 13.9854L9.05883 14.0565C7.81644 14.1557 6.80197 15.0896 6.60057 16.3196C6.1364 19.1543 6.1364 22.0457 6.60057 24.8805C6.80197 26.1104 7.81644 27.0443 9.05883 27.1435L10.9789 27.2968C14.0103 27.5388 17.0562 27.5388 20.0876 27.2968L22.0076 27.1435C23.25 27.0443 24.2645 26.1104 24.4659 24.8805C24.93 22.0457 24.93 19.1543 24.4659 16.3196C24.2645 15.0896 23.25 14.1557 22.0076 14.0565L21.1166 13.9854L21.5568 10.023C21.6087 9.5559 21.6087 9.08448 21.5568 8.61737L21.5276 8.35442C21.2177 5.56524 19.025 3.35834 16.2379 3.03045C15.7697 2.97537 15.2966 2.97537 14.8284 3.03045C12.0413 3.35834 9.84862 5.56524 9.53871 8.35442L9.50949 8.61737C9.45759 9.08448 9.45759 9.5559 9.50949 10.023ZM16.0129 4.94226C15.6942 4.90476 15.3721 4.90476 15.0534 4.94226C13.1558 5.16551 11.6629 6.66803 11.4519 8.567L11.4227 8.82995C11.3865 9.15577 11.3865 9.4846 11.4227 9.81042L11.8703 13.8391C14.3097 13.6826 16.7566 13.6826 19.196 13.839L19.6436 9.81042C19.6798 9.4846 19.6798 9.15577 19.6436 8.82995L19.6144 8.567C19.4034 6.66803 17.9105 5.16551 16.0129 4.94226ZM15.5332 18.675C14.47 18.675 13.6082 19.5369 13.6082 20.6C13.6082 21.6632 14.47 22.525 15.5332 22.525C16.5963 22.525 17.4582 21.6632 17.4582 20.6C17.4582 19.5369 16.5963 18.675 15.5332 18.675Z",
-            fill: "#424242",
-            fillRule: "evenodd"
-        }, void 0, false, {
-            fileName: "src/icons/SolidStatusLock1/SolidStatusLock1.jsx",
-            lineNumber: 13,
-            columnNumber: 7
-        }, undefined)
-    }, void 0, false, {
-        fileName: "src/icons/SolidStatusLock1/SolidStatusLock1.jsx",
-        lineNumber: 5,
-        columnNumber: 5
-    }, undefined);
-};
-_c = SolidStatusLock1;
-var _c;
-$RefreshReg$(_c, "SolidStatusLock1");
-
-  $parcel$ReactRefreshHelpers$921e.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"9FYyo","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"77JU4"}],"9FYyo":[function(require,module,exports) {
-exports.interopDefault = function(a) {
-    return a && a.__esModule ? a : {
-        default: a
-    };
-};
-exports.defineInteropFlag = function(a) {
-    Object.defineProperty(a, "__esModule", {
-        value: true
-    });
-};
-exports.exportAll = function(source, dest) {
-    Object.keys(source).forEach(function(key) {
-        if (key === "default" || key === "__esModule" || Object.prototype.hasOwnProperty.call(dest, key)) return;
-        Object.defineProperty(dest, key, {
-            enumerable: true,
-            get: function() {
-                return source[key];
-            }
-        });
-    });
-    return dest;
-};
-exports.export = function(dest, destName, get) {
-    Object.defineProperty(dest, destName, {
-        enumerable: true,
-        get: get
-    });
-};
-
-},{}],"77JU4":[function(require,module,exports) {
-"use strict";
-var Refresh = require("2065b149db15e66d");
-function debounce(func, delay) {
-    {
-        let timeout = undefined;
-        let lastTime = 0;
-        return function(args) {
-            // Call immediately if last call was more than the delay ago.
-            // Otherwise, set a timeout. This means the first call is fast
-            // (for the common case of a single update), and subsequent updates
-            // are batched.
-            let now = Date.now();
-            if (now - lastTime > delay) {
-                lastTime = now;
-                func.call(null, args);
-            } else {
-                clearTimeout(timeout);
-                timeout = setTimeout(function() {
-                    timeout = undefined;
-                    lastTime = Date.now();
-                    func.call(null, args);
-                }, delay);
-            }
-        };
-    }
-}
-var enqueueUpdate = debounce(function() {
-    Refresh.performReactRefresh();
-}, 30);
-// Everthing below is either adapted or copied from
-// https://github.com/facebook/metro/blob/61de16bd1edd7e738dd0311c89555a644023ab2d/packages/metro/src/lib/polyfills/require.js
-// MIT License - Copyright (c) Facebook, Inc. and its affiliates.
-module.exports.prelude = function(module1) {
-    window.$RefreshReg$ = function(type, id) {
-        Refresh.register(type, module1.id + " " + id);
-    };
-    window.$RefreshSig$ = Refresh.createSignatureFunctionForTransform;
-};
-module.exports.postlude = function(module1) {
-    if (isReactRefreshBoundary(module1.exports)) {
-        registerExportsForReactRefresh(module1);
-        if (module1.hot) {
-            module1.hot.dispose(function(data) {
-                if (Refresh.hasUnrecoverableErrors()) window.location.reload();
-                data.prevExports = module1.exports;
-            });
-            module1.hot.accept(function(getParents) {
-                var prevExports = module1.hot.data.prevExports;
-                var nextExports = module1.exports;
-                // Since we just executed the code for it, it's possible
-                // that the new exports make it ineligible for being a boundary.
-                var isNoLongerABoundary = !isReactRefreshBoundary(nextExports);
-                // It can also become ineligible if its exports are incompatible
-                // with the previous exports.
-                // For example, if you add/remove/change exports, we'll want
-                // to re-execute the importing modules, and force those components
-                // to re-render. Similarly, if you convert a class component
-                // to a function, we want to invalidate the boundary.
-                var didInvalidate = shouldInvalidateReactRefreshBoundary(prevExports, nextExports);
-                if (isNoLongerABoundary || didInvalidate) {
-                    // We'll be conservative. The only case in which we won't do a full
-                    // reload is if all parent modules are also refresh boundaries.
-                    // In that case we'll add them to the current queue.
-                    var parents = getParents();
-                    if (parents.length === 0) {
-                        // Looks like we bubbled to the root. Can't recover from that.
-                        window.location.reload();
-                        return;
-                    }
-                    return parents;
-                }
-                enqueueUpdate();
-            });
-        }
-    }
-};
-function isReactRefreshBoundary(exports) {
-    if (Refresh.isLikelyComponentType(exports)) return true;
-    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
-    return false;
-    var hasExports = false;
-    var areAllExportsComponents = true;
-    let isESM = "__esModule" in exports;
-    for(var key in exports){
-        hasExports = true;
-        if (key === "__esModule") continue;
-        var desc = Object.getOwnPropertyDescriptor(exports, key);
-        if (desc && desc.get && !isESM) // Don't invoke getters for CJS as they may have side effects.
-        return false;
-        var exportValue = exports[key];
-        if (!Refresh.isLikelyComponentType(exportValue)) areAllExportsComponents = false;
-    }
-    return hasExports && areAllExportsComponents;
-}
-function shouldInvalidateReactRefreshBoundary(prevExports, nextExports) {
-    var prevSignature = getRefreshBoundarySignature(prevExports);
-    var nextSignature = getRefreshBoundarySignature(nextExports);
-    if (prevSignature.length !== nextSignature.length) return true;
-    for(var i = 0; i < nextSignature.length; i++){
-        if (prevSignature[i] !== nextSignature[i]) return true;
-    }
-    return false;
-}
-// When this signature changes, it's unsafe to stop at this refresh boundary.
-function getRefreshBoundarySignature(exports) {
-    var signature = [];
-    signature.push(Refresh.getFamilyByType(exports));
-    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
-    // (This is important for legacy environments.)
-    return signature;
-    let isESM = "__esModule" in exports;
-    for(var key in exports){
-        if (key === "__esModule") continue;
-        var desc = Object.getOwnPropertyDescriptor(exports, key);
-        if (desc && desc.get && !isESM) continue;
-        var exportValue = exports[key];
-        signature.push(key);
-        signature.push(Refresh.getFamilyByType(exportValue));
-    }
-    return signature;
-}
-function registerExportsForReactRefresh(module1) {
-    var exports = module1.exports, id = module1.id;
-    Refresh.register(exports, id + " %exports%");
-    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
-    // (This is important for legacy environments.)
-    return;
-    let isESM = "__esModule" in exports;
-    for(var key in exports){
-        var desc = Object.getOwnPropertyDescriptor(exports, key);
-        if (desc && desc.get && !isESM) continue;
-        var exportValue = exports[key];
-        var typeID = id + " %exports% " + key;
-        Refresh.register(exportValue, typeID);
-    }
-}
-
-},{"2065b149db15e66d":"9BVyK"}],"7Wz3R":[function() {},{}],"6wURN":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$e053 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$e053.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _buttonCss = require("./Button.css"); // Import the CSS file
-var _reactRouterDom = require("react-router-dom");
-var _s = $RefreshSig$();
-function Button() {
-    _s();
-    const navigate = (0, _reactRouterDom.useNavigate)();
-    const navigateToAppreciation = ()=>{
-        // Handle button click logic here
-        navigate("/Appreciation");
-    };
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-        className: "custom-button",
-        onClick: navigateToAppreciation,
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "custom-text",
-            children: "See more"
-        }, void 0, false, {
-            fileName: "src/screens/FinalMyGrowth/Button/Button.jsx",
-            lineNumber: 15,
-            columnNumber: 5
-        }, this)
-    }, void 0, false, {
-        fileName: "src/screens/FinalMyGrowth/Button/Button.jsx",
-        lineNumber: 14,
-        columnNumber: 5
-    }, this);
-}
-_s(Button, "CzcTeTziyjMsSrAVmHuCCb6+Bfg=", false, function() {
-    return [
-        (0, _reactRouterDom.useNavigate)
-    ];
-});
-_c = Button;
-exports.default = Button;
-var _c;
-$RefreshReg$(_c, "Button");
-
-  $parcel$ReactRefreshHelpers$e053.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Button.css":"9j7pR","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"9FYyo","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"77JU4"}],"9j7pR":[function() {},{}],"9xmpe":[function(require,module,exports) {
+},{}],"9xmpe":[function(require,module,exports) {
 /**
  * React Router DOM v6.21.1
  *
@@ -34864,7 +33659,1251 @@ function persistAppliedTransitions(_window, transitions) {
     }
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"9FYyo"}],"4FlxK":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"9FYyo"}],"9FYyo":[function(require,module,exports) {
+exports.interopDefault = function(a) {
+    return a && a.__esModule ? a : {
+        default: a
+    };
+};
+exports.defineInteropFlag = function(a) {
+    Object.defineProperty(a, "__esModule", {
+        value: true
+    });
+};
+exports.exportAll = function(source, dest) {
+    Object.keys(source).forEach(function(key) {
+        if (key === "default" || key === "__esModule" || Object.prototype.hasOwnProperty.call(dest, key)) return;
+        Object.defineProperty(dest, key, {
+            enumerable: true,
+            get: function() {
+                return source[key];
+            }
+        });
+    });
+    return dest;
+};
+exports.export = function(dest, destName, get) {
+    Object.defineProperty(dest, destName, {
+        enumerable: true,
+        get: get
+    });
+};
+
+},{}],"cC9Ek":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$4114 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$4114.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "FinalMyGrowth", ()=>FinalMyGrowth);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _solidStatusLock1 = require("../../icons/SolidStatusLock1");
+var _styleCss = require("./style.css");
+var _button = require("./Button/Button");
+var _buttonDefault = parcelHelpers.interopDefault(_button);
+var _reactRouterDom = require("react-router-dom");
+const FinalMyGrowth = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "FINAL-my-growth",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "div",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "text-wrapper",
+                    children: "My Growth"
+                }, void 0, false, {
+                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                    lineNumber: 11,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "overlap",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            className: "group",
+                            alt: "Group",
+                            src: "https://c.animaapp.com/1ErxMTJR/img/group-1732.png"
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 13,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-2",
+                            children: "Name"
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 14,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "overlap-group",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                    className: "rectangle",
+                                    alt: "Rectangle",
+                                    src: "https://c.animaapp.com/1ErxMTJR/img/rectangle-2678.png"
+                                }, void 0, false, {
+                                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                    lineNumber: 16,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                    className: "vector",
+                                    alt: "Vector",
+                                    src: "https://c.animaapp.com/1ErxMTJR/img/vector-2.png"
+                                }, void 0, false, {
+                                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                    lineNumber: 17,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "text-wrapper-3",
+                                    children: "0"
+                                }, void 0, false, {
+                                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                    lineNumber: 18,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 15,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            className: "img",
+                            alt: "Group",
+                            src: "https://c.animaapp.com/1ErxMTJR/img/group-1733.png"
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 20,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "overlap-2",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "growth-circles",
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                            className: "span",
+                                            children: "Growth"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                            lineNumber: 23,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                            className: "text-wrapper-4",
+                                            children: "Circles"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                            lineNumber: 24,
+                                            columnNumber: 15
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                    lineNumber: 22,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                    className: "vector-2",
+                                    alt: "Vector",
+                                    src: "https://c.animaapp.com/1ErxMTJR/img/vector-1.svg"
+                                }, void 0, false, {
+                                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                    lineNumber: 26,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 21,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                    lineNumber: 12,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                    className: "p",
+                    children: "Overall data collected over all circles attended"
+                }, void 0, false, {
+                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                    lineNumber: 29,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "overlap-3",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "overlap-group-2",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "text-wrapper-5",
+                                    children: "Appreciation"
+                                }, void 0, false, {
+                                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                    lineNumber: 32,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "see-more-wrapper",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                        to: "/Appreciation",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _buttonDefault.default), {
+                                            children: "See more"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                            lineNumber: 34,
+                                            columnNumber: 38
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                        lineNumber: 34,
+                                        columnNumber: 13
+                                    }, undefined)
+                                }, void 0, false, {
+                                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                    lineNumber: 33,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 31,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "group-wrapper",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                className: "group-2",
+                                alt: "Group",
+                                src: "https://c.animaapp.com/1ErxMTJR/img/group-891.png"
+                            }, void 0, false, {
+                                fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                lineNumber: 38,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 37,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-6",
+                            children: "x3"
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 40,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "img-wrapper",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                className: "group-3",
+                                alt: "Group",
+                                src: "https://c.animaapp.com/1ErxMTJR/img/group-892.png"
+                            }, void 0, false, {
+                                fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                lineNumber: 42,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 41,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "vector-wrapper",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                className: "vector-3",
+                                alt: "Vector",
+                                src: "https://c.animaapp.com/1ErxMTJR/img/vector.png"
+                            }, void 0, false, {
+                                fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                lineNumber: 45,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 44,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-7",
+                            children: "x2"
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 47,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-8",
+                            children: "0"
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 48,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-9",
+                            children: "Efforts"
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 49,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "care-support",
+                            children: [
+                                "Care &",
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                    lineNumber: 52,
+                                    columnNumber: 13
+                                }, undefined),
+                                "Support"
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 50,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-10",
+                            children: "Role"
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 55,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                    lineNumber: 30,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "overlap-4",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "overlap-group-2",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "text-wrapper-5",
+                                    children: "Badges & Achievements"
+                                }, void 0, false, {
+                                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                    lineNumber: 59,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "div-wrapper",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "text-wrapper-11",
+                                        children: "See more"
+                                    }, void 0, false, {
+                                        fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                        lineNumber: 61,
+                                        columnNumber: 15
+                                    }, undefined)
+                                }, void 0, false, {
+                                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                    lineNumber: 60,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 58,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            className: "group-4",
+                            alt: "Group",
+                            src: "https://c.animaapp.com/1ErxMTJR/img/group-1739.png"
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 64,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "ellipse-wrapper",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "ellipse"
+                            }, void 0, false, {
+                                fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                lineNumber: 66,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 65,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "group-5",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "ellipse"
+                            }, void 0, false, {
+                                fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                lineNumber: 69,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 68,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "group-6",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "ellipse"
+                            }, void 0, false, {
+                                fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                lineNumber: 72,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 71,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "group-7",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "ellipse"
+                            }, void 0, false, {
+                                fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                lineNumber: 75,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 74,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-12",
+                            children: "Badges"
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 77,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-13",
+                            children: "Achievements"
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 78,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "overlap-wrapper",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "overlap-5",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "group-8",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "ellipse-2"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                            lineNumber: 82,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                        lineNumber: 81,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _solidStatusLock1.SolidStatusLock1), {
+                                        className: "solid-status-lock"
+                                    }, void 0, false, {
+                                        fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                        lineNumber: 84,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                lineNumber: 80,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 79,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            className: "group-9",
+                            alt: "Group",
+                            src: "https://c.animaapp.com/1ErxMTJR/img/group-1807.png"
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 87,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                    lineNumber: 57,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "overlap-6",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "overlap-group-2",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "text-wrapper-5",
+                                    children: "Topics Done"
+                                }, void 0, false, {
+                                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                    lineNumber: 91,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "div-wrapper",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "text-wrapper-11",
+                                        children: "See more"
+                                    }, void 0, false, {
+                                        fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                        lineNumber: 93,
+                                        columnNumber: 15
+                                    }, undefined)
+                                }, void 0, false, {
+                                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                    lineNumber: 92,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 90,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "overlap-7",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "text-wrapper-14",
+                                children: "#1"
+                            }, void 0, false, {
+                                fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                lineNumber: 97,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 96,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "overlap-8",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "text-wrapper-15",
+                                children: "#2"
+                            }, void 0, false, {
+                                fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                lineNumber: 100,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 99,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "overlap-9",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "text-wrapper-16",
+                                children: "#3"
+                            }, void 0, false, {
+                                fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                lineNumber: 103,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 102,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-17",
+                            children: "Burn Out"
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 105,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-18",
+                            children: "Life\u2019s Purpose"
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 106,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-19",
+                            children: "Loneliness"
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 107,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                    lineNumber: 89,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "overlap-10",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "overlap-11",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "text-wrapper-20",
+                                children: "My Roles"
+                            }, void 0, false, {
+                                fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                lineNumber: 111,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 110,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            className: "group-10",
+                            alt: "Group",
+                            src: "https://c.animaapp.com/1ErxMTJR/img/group-1737.png"
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 113,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "rectangle-2"
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 114,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "rectangle-3"
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 115,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "rectangle-4"
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 116,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "rectangle-5"
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 117,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                    lineNumber: 109,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "overlap-12",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "overlap-11",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "text-wrapper-21",
+                                children: "Special Thanks"
+                            }, void 0, false, {
+                                fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                lineNumber: 121,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 120,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            className: "lorem-ipsum-dolor",
+                            alt: "Lorem ipsum dolor",
+                            src: "https://c.animaapp.com/1ErxMTJR/img/lorem-ipsum-dolor-sit-amet-consectetur--pulvinar-vestibulum-nibh.png"
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 123,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "overlap-13",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "text-wrapper-22",
+                                    children: "Name"
+                                }, void 0, false, {
+                                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                    lineNumber: 129,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "overlap-group-wrapper",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "overlap-group-3",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "text-wrapper-23",
+                                            children: "NL"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                            lineNumber: 132,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                        lineNumber: 131,
+                                        columnNumber: 15
+                                    }, undefined)
+                                }, void 0, false, {
+                                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                    lineNumber: 130,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 128,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                    lineNumber: 119,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "overlap-14",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "overlap-group-2",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "text-wrapper-24",
+                                    children: "My Wellbeing"
+                                }, void 0, false, {
+                                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                    lineNumber: 139,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "div-wrapper",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "text-wrapper-11",
+                                        children: "See more"
+                                    }, void 0, false, {
+                                        fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                        lineNumber: 141,
+                                        columnNumber: 15
+                                    }, undefined)
+                                }, void 0, false, {
+                                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                    lineNumber: 140,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 138,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            className: "element",
+                            alt: "Element",
+                            src: "https://c.animaapp.com/1ErxMTJR/img/32--40.png"
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 144,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            className: "your-average-rating",
+                            alt: "Your average rating",
+                            src: "https://c.animaapp.com/1ErxMTJR/img/your-average-rating.png"
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 145,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-25",
+                            children: "Individually"
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 150,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-26",
+                            children: "8"
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 151,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-27",
+                            children: "Interpersonally"
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 152,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-28",
+                            children: "8"
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 153,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-29",
+                            children: "Socially"
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 154,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-30",
+                            children: "8"
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 155,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-31",
+                            children: "Overall"
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 156,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-32",
+                            children: "8"
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 157,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            className: "line",
+                            alt: "Line",
+                            src: "https://c.animaapp.com/1ErxMTJR/img/line-208.svg"
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 158,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-33",
+                            children: "Scores"
+                        }, void 0, false, {
+                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                            lineNumber: 159,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                    lineNumber: 137,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    className: "group-11",
+                    alt: "Group",
+                    src: "https://c.animaapp.com/1ErxMTJR/img/group-1831.png"
+                }, void 0, false, {
+                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                    lineNumber: 161,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "group-12",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "overlap-15",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "overlap-group-2",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "text-wrapper-34",
+                                        children: "Self Awareness Tools"
+                                    }, void 0, false, {
+                                        fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                        lineNumber: 165,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "div-wrapper",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "text-wrapper-35",
+                                            children: "See more"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                            lineNumber: 167,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                        lineNumber: 166,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                lineNumber: 164,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "text-wrapper-36",
+                                children: "Top 3 Tools used"
+                            }, void 0, false, {
+                                fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                lineNumber: 170,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                className: "mask-group",
+                                alt: "Mask group",
+                                src: "https://c.animaapp.com/1ErxMTJR/img/mask-group-2.png"
+                            }, void 0, false, {
+                                fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                lineNumber: 171,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                className: "mask-group-2",
+                                alt: "Mask group",
+                                src: "https://c.animaapp.com/1ErxMTJR/img/mask-group-1.png"
+                            }, void 0, false, {
+                                fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                lineNumber: 172,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                className: "mask-group-3",
+                                alt: "Mask group",
+                                src: "https://c.animaapp.com/1ErxMTJR/img/mask-group.png"
+                            }, void 0, false, {
+                                fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                lineNumber: 173,
+                                columnNumber: 13
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                        lineNumber: 163,
+                        columnNumber: 11
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                    lineNumber: 162,
+                    columnNumber: 9
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+            lineNumber: 10,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+        lineNumber: 9,
+        columnNumber: 5
+    }, undefined);
+};
+_c = FinalMyGrowth;
+exports.default = FinalMyGrowth;
+var _c;
+$RefreshReg$(_c, "FinalMyGrowth");
+
+  $parcel$ReactRefreshHelpers$4114.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../icons/SolidStatusLock1":"cZb2L","./style.css":"7Wz3R","./Button/Button":"6wURN","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"9FYyo","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"77JU4"}],"cZb2L":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "SolidStatusLock1", ()=>(0, _solidStatusLock1.SolidStatusLock1));
+var _solidStatusLock1 = require("./SolidStatusLock1");
+
+},{"./SolidStatusLock1":"34QaL","@parcel/transformer-js/src/esmodule-helpers.js":"9FYyo"}],"34QaL":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$921e = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$921e.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "SolidStatusLock1", ()=>SolidStatusLock1);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+const SolidStatusLock1 = ({ className })=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+        className: `solid-status-lock-1 ${className}`,
+        fill: "none",
+        height: "31",
+        viewBox: "0 0 31 31",
+        width: "31",
+        xmlns: "http://www.w3.org/2000/svg",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+            className: "path",
+            clipRule: "evenodd",
+            d: "M9.50949 10.023L9.94975 13.9854L9.05883 14.0565C7.81644 14.1557 6.80197 15.0896 6.60057 16.3196C6.1364 19.1543 6.1364 22.0457 6.60057 24.8805C6.80197 26.1104 7.81644 27.0443 9.05883 27.1435L10.9789 27.2968C14.0103 27.5388 17.0562 27.5388 20.0876 27.2968L22.0076 27.1435C23.25 27.0443 24.2645 26.1104 24.4659 24.8805C24.93 22.0457 24.93 19.1543 24.4659 16.3196C24.2645 15.0896 23.25 14.1557 22.0076 14.0565L21.1166 13.9854L21.5568 10.023C21.6087 9.5559 21.6087 9.08448 21.5568 8.61737L21.5276 8.35442C21.2177 5.56524 19.025 3.35834 16.2379 3.03045C15.7697 2.97537 15.2966 2.97537 14.8284 3.03045C12.0413 3.35834 9.84862 5.56524 9.53871 8.35442L9.50949 8.61737C9.45759 9.08448 9.45759 9.5559 9.50949 10.023ZM16.0129 4.94226C15.6942 4.90476 15.3721 4.90476 15.0534 4.94226C13.1558 5.16551 11.6629 6.66803 11.4519 8.567L11.4227 8.82995C11.3865 9.15577 11.3865 9.4846 11.4227 9.81042L11.8703 13.8391C14.3097 13.6826 16.7566 13.6826 19.196 13.839L19.6436 9.81042C19.6798 9.4846 19.6798 9.15577 19.6436 8.82995L19.6144 8.567C19.4034 6.66803 17.9105 5.16551 16.0129 4.94226ZM15.5332 18.675C14.47 18.675 13.6082 19.5369 13.6082 20.6C13.6082 21.6632 14.47 22.525 15.5332 22.525C16.5963 22.525 17.4582 21.6632 17.4582 20.6C17.4582 19.5369 16.5963 18.675 15.5332 18.675Z",
+            fill: "#424242",
+            fillRule: "evenodd"
+        }, void 0, false, {
+            fileName: "src/icons/SolidStatusLock1/SolidStatusLock1.jsx",
+            lineNumber: 13,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/icons/SolidStatusLock1/SolidStatusLock1.jsx",
+        lineNumber: 5,
+        columnNumber: 5
+    }, undefined);
+};
+_c = SolidStatusLock1;
+var _c;
+$RefreshReg$(_c, "SolidStatusLock1");
+
+  $parcel$ReactRefreshHelpers$921e.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"9FYyo","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"77JU4"}],"77JU4":[function(require,module,exports) {
+"use strict";
+var Refresh = require("2065b149db15e66d");
+function debounce(func, delay) {
+    {
+        let timeout = undefined;
+        let lastTime = 0;
+        return function(args) {
+            // Call immediately if last call was more than the delay ago.
+            // Otherwise, set a timeout. This means the first call is fast
+            // (for the common case of a single update), and subsequent updates
+            // are batched.
+            let now = Date.now();
+            if (now - lastTime > delay) {
+                lastTime = now;
+                func.call(null, args);
+            } else {
+                clearTimeout(timeout);
+                timeout = setTimeout(function() {
+                    timeout = undefined;
+                    lastTime = Date.now();
+                    func.call(null, args);
+                }, delay);
+            }
+        };
+    }
+}
+var enqueueUpdate = debounce(function() {
+    Refresh.performReactRefresh();
+}, 30);
+// Everthing below is either adapted or copied from
+// https://github.com/facebook/metro/blob/61de16bd1edd7e738dd0311c89555a644023ab2d/packages/metro/src/lib/polyfills/require.js
+// MIT License - Copyright (c) Facebook, Inc. and its affiliates.
+module.exports.prelude = function(module1) {
+    window.$RefreshReg$ = function(type, id) {
+        Refresh.register(type, module1.id + " " + id);
+    };
+    window.$RefreshSig$ = Refresh.createSignatureFunctionForTransform;
+};
+module.exports.postlude = function(module1) {
+    if (isReactRefreshBoundary(module1.exports)) {
+        registerExportsForReactRefresh(module1);
+        if (module1.hot) {
+            module1.hot.dispose(function(data) {
+                if (Refresh.hasUnrecoverableErrors()) window.location.reload();
+                data.prevExports = module1.exports;
+            });
+            module1.hot.accept(function(getParents) {
+                var prevExports = module1.hot.data.prevExports;
+                var nextExports = module1.exports;
+                // Since we just executed the code for it, it's possible
+                // that the new exports make it ineligible for being a boundary.
+                var isNoLongerABoundary = !isReactRefreshBoundary(nextExports);
+                // It can also become ineligible if its exports are incompatible
+                // with the previous exports.
+                // For example, if you add/remove/change exports, we'll want
+                // to re-execute the importing modules, and force those components
+                // to re-render. Similarly, if you convert a class component
+                // to a function, we want to invalidate the boundary.
+                var didInvalidate = shouldInvalidateReactRefreshBoundary(prevExports, nextExports);
+                if (isNoLongerABoundary || didInvalidate) {
+                    // We'll be conservative. The only case in which we won't do a full
+                    // reload is if all parent modules are also refresh boundaries.
+                    // In that case we'll add them to the current queue.
+                    var parents = getParents();
+                    if (parents.length === 0) {
+                        // Looks like we bubbled to the root. Can't recover from that.
+                        window.location.reload();
+                        return;
+                    }
+                    return parents;
+                }
+                enqueueUpdate();
+            });
+        }
+    }
+};
+function isReactRefreshBoundary(exports) {
+    if (Refresh.isLikelyComponentType(exports)) return true;
+    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
+    return false;
+    var hasExports = false;
+    var areAllExportsComponents = true;
+    let isESM = "__esModule" in exports;
+    for(var key in exports){
+        hasExports = true;
+        if (key === "__esModule") continue;
+        var desc = Object.getOwnPropertyDescriptor(exports, key);
+        if (desc && desc.get && !isESM) // Don't invoke getters for CJS as they may have side effects.
+        return false;
+        var exportValue = exports[key];
+        if (!Refresh.isLikelyComponentType(exportValue)) areAllExportsComponents = false;
+    }
+    return hasExports && areAllExportsComponents;
+}
+function shouldInvalidateReactRefreshBoundary(prevExports, nextExports) {
+    var prevSignature = getRefreshBoundarySignature(prevExports);
+    var nextSignature = getRefreshBoundarySignature(nextExports);
+    if (prevSignature.length !== nextSignature.length) return true;
+    for(var i = 0; i < nextSignature.length; i++){
+        if (prevSignature[i] !== nextSignature[i]) return true;
+    }
+    return false;
+}
+// When this signature changes, it's unsafe to stop at this refresh boundary.
+function getRefreshBoundarySignature(exports) {
+    var signature = [];
+    signature.push(Refresh.getFamilyByType(exports));
+    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
+    // (This is important for legacy environments.)
+    return signature;
+    let isESM = "__esModule" in exports;
+    for(var key in exports){
+        if (key === "__esModule") continue;
+        var desc = Object.getOwnPropertyDescriptor(exports, key);
+        if (desc && desc.get && !isESM) continue;
+        var exportValue = exports[key];
+        signature.push(key);
+        signature.push(Refresh.getFamilyByType(exportValue));
+    }
+    return signature;
+}
+function registerExportsForReactRefresh(module1) {
+    var exports = module1.exports, id = module1.id;
+    Refresh.register(exports, id + " %exports%");
+    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
+    // (This is important for legacy environments.)
+    return;
+    let isESM = "__esModule" in exports;
+    for(var key in exports){
+        var desc = Object.getOwnPropertyDescriptor(exports, key);
+        if (desc && desc.get && !isESM) continue;
+        var exportValue = exports[key];
+        var typeID = id + " %exports% " + key;
+        Refresh.register(exportValue, typeID);
+    }
+}
+
+},{"2065b149db15e66d":"9BVyK"}],"7Wz3R":[function() {},{}],"6wURN":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$e053 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$e053.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _buttonCss = require("./Button.css"); // Import the CSS file
+var _reactRouterDom = require("react-router-dom");
+var _s = $RefreshSig$();
+function Button() {
+    _s();
+    const navigate = (0, _reactRouterDom.useNavigate)();
+    const navigateToAppreciation = ()=>{
+        // Handle button click logic here
+        navigate("/Appreciation");
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+        className: "custom-button",
+        onClick: navigateToAppreciation,
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "custom-text",
+            children: "See more"
+        }, void 0, false, {
+            fileName: "src/screens/FinalMyGrowth/Button/Button.jsx",
+            lineNumber: 15,
+            columnNumber: 5
+        }, this)
+    }, void 0, false, {
+        fileName: "src/screens/FinalMyGrowth/Button/Button.jsx",
+        lineNumber: 14,
+        columnNumber: 5
+    }, this);
+}
+_s(Button, "CzcTeTziyjMsSrAVmHuCCb6+Bfg=", false, function() {
+    return [
+        (0, _reactRouterDom.useNavigate)
+    ];
+});
+_c = Button;
+exports.default = Button;
+var _c;
+$RefreshReg$(_c, "Button");
+
+  $parcel$ReactRefreshHelpers$e053.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Button.css":"9j7pR","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"9FYyo","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"77JU4"}],"9j7pR":[function() {},{}],"4FlxK":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$76d4 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -34878,7 +34917,6 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _styleCss = require("./style.css");
 const Appreciation = ()=>{
-    console.log("Appreciation component rendered");
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "Appreciation",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34900,7 +34938,7 @@ const Appreciation = ()=>{
                                                 children: "EFFORTS"
                                             }, void 0, false, {
                                                 fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                                lineNumber: 13,
+                                                lineNumber: 12,
                                                 columnNumber: 17
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -34909,18 +34947,18 @@ const Appreciation = ()=>{
                                                 src: "https://c.animaapp.com/Rm7LACSI/img/group-1715@2x.png"
                                             }, void 0, false, {
                                                 fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                                lineNumber: 14,
+                                                lineNumber: 13,
                                                 columnNumber: 17
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                        lineNumber: 12,
+                                        lineNumber: 11,
                                         columnNumber: 15
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 11,
+                                    lineNumber: 10,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34934,14 +34972,14 @@ const Appreciation = ()=>{
                                                     "CARE &",
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                                         fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                                        lineNumber: 21,
+                                                        lineNumber: 20,
                                                         columnNumber: 19
                                                     }, undefined),
                                                     "SUPPORT"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                                lineNumber: 19,
+                                                lineNumber: 18,
                                                 columnNumber: 17
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -34950,18 +34988,18 @@ const Appreciation = ()=>{
                                                 src: "https://c.animaapp.com/Rm7LACSI/img/group-1716@2x.png"
                                             }, void 0, false, {
                                                 fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                                lineNumber: 24,
+                                                lineNumber: 23,
                                                 columnNumber: 17
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                        lineNumber: 18,
+                                        lineNumber: 17,
                                         columnNumber: 15
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 17,
+                                    lineNumber: 16,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34974,7 +35012,7 @@ const Appreciation = ()=>{
                                                 children: "ROLE"
                                             }, void 0, false, {
                                                 fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                                lineNumber: 29,
+                                                lineNumber: 28,
                                                 columnNumber: 17
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -34983,24 +35021,24 @@ const Appreciation = ()=>{
                                                 src: "https://c.animaapp.com/Rm7LACSI/img/vector-2.svg"
                                             }, void 0, false, {
                                                 fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                                lineNumber: 30,
+                                                lineNumber: 29,
                                                 columnNumber: 17
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                        lineNumber: 28,
+                                        lineNumber: 27,
                                         columnNumber: 15
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 27,
+                                    lineNumber: 26,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 10,
+                            lineNumber: 9,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35011,7 +35049,7 @@ const Appreciation = ()=>{
                                     children: "x3"
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 35,
+                                    lineNumber: 34,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35023,23 +35061,23 @@ const Appreciation = ()=>{
                                             children: "x3"
                                         }, void 0, false, {
                                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                            lineNumber: 38,
+                                            lineNumber: 37,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                        lineNumber: 37,
+                                        lineNumber: 36,
                                         columnNumber: 15
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 36,
+                                    lineNumber: 35,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 34,
+                            lineNumber: 33,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35051,17 +35089,17 @@ const Appreciation = ()=>{
                                     children: "-"
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 44,
+                                    lineNumber: 43,
                                     columnNumber: 15
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                lineNumber: 43,
+                                lineNumber: 42,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 42,
+                            lineNumber: 41,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35073,17 +35111,17 @@ const Appreciation = ()=>{
                                     children: "-"
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 49,
+                                    lineNumber: 48,
                                     columnNumber: 15
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                lineNumber: 48,
+                                lineNumber: 47,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 47,
+                            lineNumber: 46,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35091,7 +35129,7 @@ const Appreciation = ()=>{
                             children: "When others praised me"
                         }, void 0, false, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 52,
+                            lineNumber: 51,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35099,7 +35137,7 @@ const Appreciation = ()=>{
                             children: "When I praised myself"
                         }, void 0, false, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 53,
+                            lineNumber: 52,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35111,17 +35149,17 @@ const Appreciation = ()=>{
                                     children: "x1"
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 56,
+                                    lineNumber: 55,
                                     columnNumber: 15
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                lineNumber: 55,
+                                lineNumber: 54,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 54,
+                            lineNumber: 53,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35133,17 +35171,17 @@ const Appreciation = ()=>{
                                     children: "x1"
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 61,
+                                    lineNumber: 60,
                                     columnNumber: 15
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                lineNumber: 60,
+                                lineNumber: 59,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 59,
+                            lineNumber: 58,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35155,17 +35193,17 @@ const Appreciation = ()=>{
                                     children: "x2"
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 66,
+                                    lineNumber: 65,
                                     columnNumber: 15
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                lineNumber: 65,
+                                lineNumber: 64,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 64,
+                            lineNumber: 63,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35175,18 +35213,18 @@ const Appreciation = ()=>{
                                 children: "Appreciation"
                             }, void 0, false, {
                                 fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                lineNumber: 70,
+                                lineNumber: 69,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 69,
+                            lineNumber: 68,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                    lineNumber: 9,
+                    lineNumber: 8,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35200,7 +35238,7 @@ const Appreciation = ()=>{
                                     children: "Name"
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 75,
+                                    lineNumber: 74,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35212,23 +35250,23 @@ const Appreciation = ()=>{
                                             children: "RS"
                                         }, void 0, false, {
                                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                            lineNumber: 78,
+                                            lineNumber: 77,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                        lineNumber: 77,
+                                        lineNumber: 76,
                                         columnNumber: 15
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 76,
+                                    lineNumber: 75,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 74,
+                            lineNumber: 73,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -35236,7 +35274,7 @@ const Appreciation = ()=>{
                             children: "Lorem ipsum dolor sit amet consectetur. Fermentum etiam commodo molestie in tellus. Quam volutpat vitae nibh nullam."
                         }, void 0, false, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 82,
+                            lineNumber: 81,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35247,7 +35285,7 @@ const Appreciation = ()=>{
                                     children: "Name"
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 87,
+                                    lineNumber: 86,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35259,23 +35297,23 @@ const Appreciation = ()=>{
                                             children: "NL"
                                         }, void 0, false, {
                                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                            lineNumber: 90,
+                                            lineNumber: 89,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                        lineNumber: 89,
+                                        lineNumber: 88,
                                         columnNumber: 15
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 88,
+                                    lineNumber: 87,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 86,
+                            lineNumber: 85,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -35283,7 +35321,7 @@ const Appreciation = ()=>{
                             children: "\u201CAmet morbi lacus sit ultrices tempus amet. Ornare ultricies vivamus sem ipsum orci.\u201D"
                         }, void 0, false, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 94,
+                            lineNumber: 93,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35294,7 +35332,7 @@ const Appreciation = ()=>{
                                     children: "Name"
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 98,
+                                    lineNumber: 97,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35306,23 +35344,23 @@ const Appreciation = ()=>{
                                             children: "LM"
                                         }, void 0, false, {
                                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                            lineNumber: 101,
+                                            lineNumber: 100,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                        lineNumber: 100,
+                                        lineNumber: 99,
                                         columnNumber: 15
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 99,
+                                    lineNumber: 98,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 97,
+                            lineNumber: 96,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -35330,7 +35368,7 @@ const Appreciation = ()=>{
                             children: "\u201CLorem ipsum dolor sit amet consectetur. Sodales iaculis nisl vulputate et. Posuere placerat tortor. Elementum porttitor sed ultrices vel a magna.\u201D"
                         }, void 0, false, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 105,
+                            lineNumber: 104,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35341,7 +35379,7 @@ const Appreciation = ()=>{
                                     children: "Name"
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 110,
+                                    lineNumber: 109,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35353,23 +35391,23 @@ const Appreciation = ()=>{
                                             children: "BH"
                                         }, void 0, false, {
                                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                            lineNumber: 113,
+                                            lineNumber: 112,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                        lineNumber: 112,
+                                        lineNumber: 111,
                                         columnNumber: 15
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 111,
+                                    lineNumber: 110,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 109,
+                            lineNumber: 108,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -35377,7 +35415,7 @@ const Appreciation = ()=>{
                             children: "\u201CLorem ipsum dolor sit amet consectetur. Tincidunt egestas massa aliquam. Dolor sit venenatis sed egestas.\u201D"
                         }, void 0, false, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 117,
+                            lineNumber: 116,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35387,18 +35425,18 @@ const Appreciation = ()=>{
                                 children: "Special Thanks"
                             }, void 0, false, {
                                 fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                lineNumber: 121,
+                                lineNumber: 120,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 120,
+                            lineNumber: 119,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                    lineNumber: 73,
+                    lineNumber: 72,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35406,7 +35444,7 @@ const Appreciation = ()=>{
                     children: "Appreciation & Special Thanks"
                 }, void 0, false, {
                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                    lineNumber: 124,
+                    lineNumber: 123,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -35415,7 +35453,7 @@ const Appreciation = ()=>{
                     src: "https://c.animaapp.com/Rm7LACSI/img/vector.svg"
                 }, void 0, false, {
                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                    lineNumber: 125,
+                    lineNumber: 124,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35436,12 +35474,12 @@ const Appreciation = ()=>{
                                                     className: "ellipse"
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                                    lineNumber: 132,
+                                                    lineNumber: 131,
                                                     columnNumber: 21
                                                 }, undefined)
                                             }, void 0, false, {
                                                 fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                                lineNumber: 131,
+                                                lineNumber: 130,
                                                 columnNumber: 19
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35450,33 +35488,33 @@ const Appreciation = ()=>{
                                                     className: "ellipse"
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                                    lineNumber: 135,
+                                                    lineNumber: 134,
                                                     columnNumber: 21
                                                 }, undefined)
                                             }, void 0, false, {
                                                 fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                                lineNumber: 134,
+                                                lineNumber: 133,
                                                 columnNumber: 19
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                        lineNumber: 130,
+                                        lineNumber: 129,
                                         columnNumber: 17
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 129,
+                                    lineNumber: 128,
                                     columnNumber: 15
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                lineNumber: 128,
+                                lineNumber: 127,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 127,
+                            lineNumber: 126,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35484,7 +35522,7 @@ const Appreciation = ()=>{
                             children: "Name"
                         }, void 0, false, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 141,
+                            lineNumber: 140,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35494,7 +35532,7 @@ const Appreciation = ()=>{
                                     className: "rectangle"
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 143,
+                                    lineNumber: 142,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -35503,7 +35541,7 @@ const Appreciation = ()=>{
                                     src: "https://c.animaapp.com/Rm7LACSI/img/vector-4.svg"
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 144,
+                                    lineNumber: 143,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35511,13 +35549,13 @@ const Appreciation = ()=>{
                                     children: "0"
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 145,
+                                    lineNumber: 144,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 142,
+                            lineNumber: 141,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35534,25 +35572,25 @@ const Appreciation = ()=>{
                                                     className: "ellipse-2"
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                                    lineNumber: 151,
+                                                    lineNumber: 150,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                     className: "ellipse-3"
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                                    lineNumber: 152,
+                                                    lineNumber: 151,
                                                     columnNumber: 19
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                            lineNumber: 150,
+                                            lineNumber: 149,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                        lineNumber: 149,
+                                        lineNumber: 148,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35560,18 +35598,18 @@ const Appreciation = ()=>{
                                         children: "c"
                                     }, void 0, false, {
                                         fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                        lineNumber: 155,
+                                        lineNumber: 154,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                lineNumber: 148,
+                                lineNumber: 147,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 147,
+                            lineNumber: 146,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35585,7 +35623,7 @@ const Appreciation = ()=>{
                                             children: "Growth"
                                         }, void 0, false, {
                                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                            lineNumber: 160,
+                                            lineNumber: 159,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -35593,13 +35631,13 @@ const Appreciation = ()=>{
                                             children: "Circles"
                                         }, void 0, false, {
                                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                            lineNumber: 161,
+                                            lineNumber: 160,
                                             columnNumber: 15
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 159,
+                                    lineNumber: 158,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -35608,47 +35646,47 @@ const Appreciation = ()=>{
                                     src: "https://c.animaapp.com/Rm7LACSI/img/vector-3.svg"
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 163,
+                                    lineNumber: 162,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 158,
+                            lineNumber: 157,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                    lineNumber: 126,
+                    lineNumber: 125,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     className: "rectangle-2"
                 }, void 0, false, {
                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                    lineNumber: 166,
+                    lineNumber: 165,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     className: "rectangle-3"
                 }, void 0, false, {
                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                    lineNumber: 167,
+                    lineNumber: 166,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     className: "rectangle-4"
                 }, void 0, false, {
                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                    lineNumber: 168,
+                    lineNumber: 167,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     className: "rectangle-5"
                 }, void 0, false, {
                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                    lineNumber: 169,
+                    lineNumber: 168,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -35657,18 +35695,18 @@ const Appreciation = ()=>{
                     src: "https://c.animaapp.com/Rm7LACSI/img/vector-1.svg"
                 }, void 0, false, {
                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                    lineNumber: 170,
+                    lineNumber: 169,
                     columnNumber: 9
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/screens/Appreciation/Appreciation.jsx",
-            lineNumber: 8,
+            lineNumber: 7,
             columnNumber: 7
         }, undefined)
     }, void 0, false, {
         fileName: "src/screens/Appreciation/Appreciation.jsx",
-        lineNumber: 7,
+        lineNumber: 6,
         columnNumber: 5
     }, undefined);
 };
