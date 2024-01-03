@@ -167,7 +167,6 @@ const Appreciation = () => {
         <div className="rectangle-4" />
         <div className="rectangle-5" />
         <img className="vector-5" alt="Vector" src="https://c.animaapp.com/Rm7LACSI/img/vector-1.svg" />
-        
       </div>
     </div>
   );
