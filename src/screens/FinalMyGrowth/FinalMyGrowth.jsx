@@ -31,7 +31,7 @@ export const FinalMyGrowth = () => {
           <div className="overlap-group-2">
             <div className="text-wrapper-5">Appreciation</div>
             <div className="see-more-wrapper">
-            <Link to="/other"><Button>See more</Button></Link>
+            <Link to="/Appreciation"><Button>See more</Button></Link>
             </div>
           </div>
           <div className="group-wrapper">
