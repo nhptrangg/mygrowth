@@ -2,7 +2,6 @@ import React from "react";
 import { SolidStatusLock1 } from "../../icons/SolidStatusLock1";
 import "./style.css";
 import Button from './Button/Button';
-import { Link } from 'react-router-dom';
 
 export const FinalMyGrowth = () => {
   return (
@@ -31,7 +30,7 @@ export const FinalMyGrowth = () => {
           <div className="overlap-group-2">
             <div className="text-wrapper-5">Appreciation</div>
             <div className="see-more-wrapper">
-            <Link to="/Appreciation"><Button>See more</Button></Link>
+            <Button>See more</Button>
             </div>
           </div>
           <div className="group-wrapper">
