@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import ButtonToMain from "../FinalMyGrowth/Button/ButtonToMain";
 
 const Appreciation = () => {
   return (
@@ -121,7 +122,7 @@ const Appreciation = () => {
           </div>
         </div>
         <div className="appreciation-special">Appreciation &amp; Special Thanks</div>
-        <img className="vector-2" alt="Vector" src="https://c.animaapp.com/Rm7LACSI/img/vector.svg" />
+        <ButtonToMain></ButtonToMain>
         <div className="overlap-19">
           <div className="group-11">
             <div className="group-wrapper">
