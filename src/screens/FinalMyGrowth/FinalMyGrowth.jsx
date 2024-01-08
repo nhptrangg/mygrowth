@@ -2,6 +2,7 @@ import React from "react";
 import { SolidStatusLock1 } from "../../icons/SolidStatusLock1";
 import "./style.css";
 import ButtonToAppreciation from './Button/ButtonToAppreciation';
+import ButtonToBadges from "./Button/ButtonToBadges";
 
 export const FinalMyGrowth = () => {
   return (
@@ -57,9 +58,8 @@ export const FinalMyGrowth = () => {
           <div className="overlap-group-2">
             <div className="text-wrapper-5">Badges &amp; Achievements</div>
             <div className="div-wrapper">
-              <div className="text-wrapper-11">See more</div>
+              <ButtonToBadges>See more</ButtonToBadges></div>
             </div>
-          </div>
           <img className="group-4" alt="Group" src="https://c.animaapp.com/1ErxMTJR/img/group-1739.png" />
           <div className="ellipse-wrapper">
             <div className="ellipse" />
