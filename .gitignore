@@ -4,7 +4,7 @@
 node_modules/
 
 # Ignore Parcel cache and build output
-.parcel-cache/data.mdb
+.parcel-cache/
 dist/
 
 # Ignore lock files
