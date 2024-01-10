@@ -1,0 +1,1088 @@
+.MyWellbeing {
+    background-color: #fdf5e6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .MyWellbeing .div {
+    background-color: #fdf5e6;
+    height: 852px;
+    position: relative;
+    width: 375px;
+  }
+  
+  .MyWellbeing .text-wrapper {
+    color: #eb8181;
+    font-family: "Poppins", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    height: 20px;
+    left: 118px;
+    letter-spacing: 0;
+    line-height: 20px;
+    position: absolute;
+    text-align: center;
+    top: 172px;
+    white-space: nowrap;
+  }
+  
+  .MyWellbeing .vector {
+    height: 20px;
+    left: 27px;
+    position: absolute;
+    top: 173px;
+    width: 15px;
+  }
+  
+  .MyWellbeing .overlap {
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 224px;
+    left: 24px;
+    position: absolute;
+    top: 208px;
+    width: 328px;
+  }
+  
+  .MyWellbeing .overlap-group {
+    background-color: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-color: #eb8181;
+    border-radius: 10px 10px 0px 0px;
+    height: 40px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 328px;
+  }
+  
+  .MyWellbeing .text-wrapper-2 {
+    color: #565454;
+    font-family: "Poppins", Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+    height: 20px;
+    left: 22px;
+    letter-spacing: 0;
+    line-height: 20px;
+    position: absolute;
+    top: 9px;
+    white-space: nowrap;
+  }
+  
+  .MyWellbeing .element {
+    color: #555454;
+    font-family: "Poppins", Helvetica;
+    font-size: 48px;
+    font-weight: 400;
+    height: 38px;
+    left: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 57px;
+    white-space: nowrap;
+    width: 114px;
+  }
+  
+  .MyWellbeing .span {
+    font-weight: 700;
+  }
+  
+  .MyWellbeing .text-wrapper-3 {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .MyWellbeing .your-average-rating {
+    color: transparent;
+    font-family: "Poppins", Helvetica;
+    font-size: 12px;
+    font-weight: 500;
+    height: 18px;
+    left: 180px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 77px;
+  }
+  
+  .MyWellbeing .text-wrapper-4 {
+    color: #555454;
+  }
+  
+  .MyWellbeing .text-wrapper-5 {
+    color: #eb8181;
+  }
+  
+  .MyWellbeing .text-wrapper-6 {
+    color: #555454;
+    font-family: "Poppins", Helvetica;
+    font-size: 12px;
+    font-weight: 500;
+    height: 18px;
+    left: 66px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 148px;
+  }
+  
+  .MyWellbeing .text-wrapper-7 {
+    color: #555454;
+    font-family: "Poppins", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    height: 36px;
+    left: 39px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 139px;
+  }
+  
+  .MyWellbeing .text-wrapper-8 {
+    color: #555454;
+    font-family: "Poppins", Helvetica;
+    font-size: 12px;
+    font-weight: 500;
+    height: 18px;
+    left: 200px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 148px;
+  }
+  
+  .MyWellbeing .text-wrapper-9 {
+    color: #555454;
+    font-family: "Poppins", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    height: 36px;
+    left: 168px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 139px;
+  }
+  
+  .MyWellbeing .text-wrapper-10 {
+    color: #555454;
+    font-family: "Poppins", Helvetica;
+    font-size: 12px;
+    font-weight: 500;
+    height: 18px;
+    left: 66px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 187px;
+  }
+  
+  .MyWellbeing .text-wrapper-11 {
+    color: #555454;
+    font-family: "Poppins", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    height: 36px;
+    left: 39px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 178px;
+  }
+  
+  .MyWellbeing .text-wrapper-12 {
+    color: #555454;
+    font-family: "Poppins", Helvetica;
+    font-size: 12px;
+    font-weight: 500;
+    height: 18px;
+    left: 200px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 187px;
+  }
+  
+  .MyWellbeing .text-wrapper-13 {
+    color: #555454;
+    font-family: "Poppins", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    height: 36px;
+    left: 168px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 178px;
+  }
+  
+  .MyWellbeing .line {
+    height: 1px;
+    left: 24px;
+    object-fit: cover;
+    position: absolute;
+    top: 135px;
+    width: 280px;
+  }
+  
+  .MyWellbeing .text-wrapper-14 {
+    color: #eb8181;
+    font-family: "Poppins", Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+    height: 21px;
+    left: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 114px;
+  }
+  
+  .MyWellbeing .overlap-2 {
+    background-color: #ffffff;
+    border-radius: 0px 0px 10px 10px;
+    height: 152px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 375px;
+  }
+  
+  .MyWellbeing .group {
+    background-color: #f9bb62;
+    border-radius: 36px;
+    height: 72px;
+    left: 24px;
+    position: absolute;
+    top: 64px;
+    width: 72px;
+  }
+  
+  .MyWellbeing .group-wrapper {
+    background-color: #ea8b8b;
+    border-radius: 30.86px;
+    height: 62px;
+    left: 5px;
+    position: relative;
+    top: 5px;
+    width: 62px;
+  }
+  
+  .MyWellbeing .overlap-group-wrapper {
+    height: 48px;
+    left: 13px;
+    position: relative;
+    top: 13px;
+    width: 35px;
+  }
+  
+  .MyWellbeing .overlap-group-2 {
+    background-image: url(../../../imgMyWellbeing/vector-197.svg);
+    background-size: 100% 100%;
+    height: 49px;
+    left: -1px;
+    position: relative;
+    top: -1px;
+    width: 36px;
+  }
+  
+  .MyWellbeing .ellipse-wrapper {
+    background-color: #ffffff;
+    border: 0.5px solid;
+    border-color: #000000;
+    border-radius: 4.3px/5.91px;
+    height: 12px;
+    left: 8px;
+    position: absolute;
+    top: 11px;
+    width: 9px;
+  }
+  
+  .MyWellbeing .ellipse {
+    background-color: #000000;
+    border: 0.5px solid;
+    border-radius: 2.69px/3.76px;
+    height: 8px;
+    left: 1px;
+    position: relative;
+    top: 4px;
+    width: 5px;
+  }
+  
+  .MyWellbeing .div-wrapper {
+    background-color: #ffffff;
+    border: 0.5px solid;
+    border-color: #000000;
+    border-radius: 4.3px/5.91px;
+    height: 12px;
+    left: 21px;
+    position: absolute;
+    top: 11px;
+    width: 9px;
+  }
+  
+  .MyWellbeing .text-wrapper-15 {
+    color: #000000;
+    font-family: "Poppins", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    height: 15px;
+    left: 104px;
+    letter-spacing: 0;
+    line-height: 30px;
+    position: absolute;
+    top: 89px;
+    white-space: nowrap;
+    width: 55px;
+  }
+  
+  .MyWellbeing .overlap-3 {
+    height: 42px;
+    left: 264px;
+    position: absolute;
+    top: 80px;
+    width: 89px;
+  }
+  
+  .MyWellbeing .rectangle {
+    background-color: #ffffff;
+    border: 2px solid;
+    border-color: #e9a0a0;
+    border-radius: 8px;
+    height: 34px;
+    left: 0;
+    position: absolute;
+    top: 8px;
+    width: 80px;
+  }
+  
+  .MyWellbeing .img {
+    height: 17px;
+    left: 72px;
+    position: absolute;
+    top: 0;
+    width: 17px;
+  }
+  
+  .MyWellbeing .text-wrapper-16 {
+    color: #000000;
+    font-family: "Poppins", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    height: 15px;
+    left: 34px;
+    letter-spacing: 0;
+    line-height: 15px;
+    position: absolute;
+    text-align: center;
+    top: 16px;
+    white-space: nowrap;
+  }
+  
+  .MyWellbeing .overlap-wrapper {
+    height: 33px;
+    left: 224px;
+    position: absolute;
+    top: 87px;
+    width: 34px;
+  }
+  
+  .MyWellbeing .overlap-4 {
+    border-radius: 16px/16.5px;
+    height: 33px;
+    position: relative;
+    width: 32px;
+  }
+  
+  .MyWellbeing .group-2 {
+    background-color: #f9bb6266;
+    border-radius: 16px/16.5px;
+    height: 33px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 32px;
+  }
+  
+  .MyWellbeing .overlap-group-3 {
+    background-color: #f9bb6280;
+    border-radius: 14.72px/15.18px;
+    height: 30px;
+    left: 1px;
+    position: relative;
+    top: 1px;
+    width: 29px;
+  }
+  
+  .MyWellbeing .ellipse-2 {
+    background-color: #f9bb6299;
+    border-radius: 13.44px/13.86px;
+    height: 28px;
+    left: 1px;
+    position: absolute;
+    top: 1px;
+    width: 27px;
+  }
+  
+  .MyWellbeing .ellipse-3 {
+    background-color: #f9bb62;
+    border-radius: 11.89px/12.26px;
+    height: 25px;
+    left: 3px;
+    position: absolute;
+    top: 3px;
+    width: 24px;
+  }
+  
+  .MyWellbeing .text-wrapper-17 {
+    color: #ffffff;
+    font-family: "Poppins", Helvetica;
+    font-size: 15px;
+    font-weight: 600;
+    height: 16px;
+    left: 10px;
+    letter-spacing: 0;
+    line-height: 30px;
+    position: absolute;
+    text-align: center;
+    top: 8px;
+    white-space: nowrap;
+    width: 13px;
+  }
+  
+  .MyWellbeing .overlap-5 {
+    background-color: #ffffff;
+    height: 60px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 375px;
+  }
+  
+  .MyWellbeing .growth-circles {
+    color: #eb8181;
+    font-family: "Poppins", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 96px;
+    letter-spacing: 0;
+    line-height: 20px;
+    position: absolute;
+    top: 19px;
+    width: 184px;
+  }
+  
+  .MyWellbeing .text-wrapper-18 {
+    font-style: italic;
+    font-weight: 700;
+  }
+  
+  .MyWellbeing .vector-2 {
+    height: 18px;
+    left: 24px;
+    position: absolute;
+    top: 18px;
+    width: 23px;
+  }
+  
+  .MyWellbeing .vector-3 {
+    height: 24px;
+    left: 328px;
+    position: absolute;
+    top: 172px;
+    width: 24px;
+  }
+  
+  .MyWellbeing .overlap-6 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 264px;
+    left: 24px;
+    position: absolute;
+    top: 440px;
+    width: 328px;
+  }
+  
+  .MyWellbeing .text-wrapper-19 {
+    color: #565454;
+    font-family: "Poppins", Helvetica;
+    font-size: 14px;
+    font-weight: 600;
+    height: 20px;
+    left: 18px;
+    letter-spacing: 0;
+    line-height: 20px;
+    position: absolute;
+    top: 6px;
+    white-space: nowrap;
+  }
+  
+  .MyWellbeing .overlap-7 {
+    height: 244px;
+    left: -8px;
+    position: absolute;
+    top: 48px;
+    width: 320px;
+  }
+  
+  .MyWellbeing .text-wrapper-20 {
+    color: #555454;
+    font-family: "Poppins", Helvetica;
+    font-size: 10px;
+    font-weight: 500;
+    height: 16px;
+    left: 8px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 167px;
+    width: 23px;
+  }
+  
+  .MyWellbeing .text-wrapper-21 {
+    color: #555454;
+    font-family: "Poppins", Helvetica;
+    font-size: 10px;
+    font-weight: 500;
+    height: 15px;
+    left: 8px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 136px;
+    width: 23px;
+  }
+  
+  .MyWellbeing .text-wrapper-22 {
+    color: #555454;
+    font-family: "Poppins", Helvetica;
+    font-size: 10px;
+    font-weight: 500;
+    height: 15px;
+    left: 8px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 104px;
+    width: 23px;
+  }
+  
+  .MyWellbeing .text-wrapper-23 {
+    color: #555454;
+    font-family: "Poppins", Helvetica;
+    font-size: 10px;
+    font-weight: 500;
+    height: 14px;
+    left: 8px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 72px;
+    width: 23px;
+  }
+  
+  .MyWellbeing .text-wrapper-24 {
+    color: #555454;
+    font-family: "Poppins", Helvetica;
+    font-size: 10px;
+    font-weight: 500;
+    height: 14px;
+    left: 9px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 40px;
+    width: 23px;
+  }
+  
+  .MyWellbeing .text-wrapper-25 {
+    color: #555454;
+    font-family: "Poppins", Helvetica;
+    font-size: 10px;
+    font-weight: 500;
+    height: 14px;
+    left: 9px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 8px;
+    width: 23px;
+  }
+  
+  .MyWellbeing .text-wrapper-26 {
+    color: #555454;
+    font-family: "Poppins", Helvetica;
+    font-size: 8px;
+    font-weight: 500;
+    height: 12px;
+    left: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 179px;
+  }
+  
+  .MyWellbeing .text-wrapper-27 {
+    color: #555454;
+    font-family: "Poppins", Helvetica;
+    font-size: 8px;
+    font-weight: 500;
+    height: 12px;
+    left: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 179px;
+  }
+  
+  .MyWellbeing .text-wrapper-28 {
+    color: #555454;
+    font-family: "Poppins", Helvetica;
+    font-size: 8px;
+    font-weight: 500;
+    height: 12px;
+    left: 89px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 179px;
+  }
+  
+  .MyWellbeing .text-wrapper-29 {
+    color: #555454;
+    font-family: "Poppins", Helvetica;
+    font-size: 8px;
+    font-weight: 500;
+    height: 12px;
+    left: 112px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 179px;
+  }
+  
+  .MyWellbeing .text-wrapper-30 {
+    color: #555454;
+    font-family: "Poppins", Helvetica;
+    font-size: 8px;
+    font-weight: 500;
+    height: 12px;
+    left: 136px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 179px;
+  }
+  
+  .MyWellbeing .text-wrapper-31 {
+    color: #555454;
+    font-family: "Poppins", Helvetica;
+    font-size: 8px;
+    font-weight: 500;
+    height: 12px;
+    left: 161px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 179px;
+  }
+  
+  .MyWellbeing .text-wrapper-32 {
+    color: #555454;
+    font-family: "Poppins", Helvetica;
+    font-size: 8px;
+    font-weight: 500;
+    height: 12px;
+    left: 186px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 179px;
+  }
+  
+  .MyWellbeing .text-wrapper-33 {
+    color: #555454;
+    font-family: "Poppins", Helvetica;
+    font-size: 8px;
+    font-weight: 500;
+    height: 12px;
+    left: 255px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 197px;
+  }
+  
+  .MyWellbeing .text-wrapper-34 {
+    color: #555454;
+    font-family: "Poppins", Helvetica;
+    font-size: 8px;
+    font-weight: 500;
+    height: 12px;
+    left: 300px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 197px;
+  }
+  
+  .MyWellbeing .text-wrapper-35 {
+    color: #555454;
+    font-family: "Poppins", Helvetica;
+    font-size: 8px;
+    font-weight: 500;
+    height: 12px;
+    left: 208px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 179px;
+  }
+  
+  .MyWellbeing .text-wrapper-36 {
+    color: #555454;
+    font-family: "Poppins", Helvetica;
+    font-size: 8px;
+    font-weight: 500;
+    height: 12px;
+    left: 232px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 179px;
+  }
+  
+  .MyWellbeing .text-wrapper-37 {
+    color: #555454;
+    font-family: "Poppins", Helvetica;
+    font-size: 8px;
+    font-weight: 500;
+    height: 12px;
+    left: 256px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 179px;
+  }
+  
+  .MyWellbeing .text-wrapper-38 {
+    color: #555454;
+    font-family: "Poppins", Helvetica;
+    font-size: 8px;
+    font-weight: 500;
+    height: 12px;
+    left: 280px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 179px;
+  }
+  
+  .MyWellbeing .text-wrapper-39 {
+    color: #555454;
+    font-family: "Poppins", Helvetica;
+    font-size: 8px;
+    font-weight: 500;
+    height: 12px;
+    left: 304px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 179px;
+  }
+  
+  .MyWellbeing .overlap-8 {
+    height: 244px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 320px;
+  }
+  
+  .MyWellbeing .vector-4 {
+    height: 1px;
+    left: 40px;
+    object-fit: cover;
+    position: absolute;
+    top: 96px;
+    width: 280px;
+  }
+  
+  .MyWellbeing .vector-5 {
+    height: 1px;
+    left: 40px;
+    object-fit: cover;
+    position: absolute;
+    top: 80px;
+    width: 280px;
+  }
+  
+  .MyWellbeing .vector-6 {
+    height: 1px;
+    left: 40px;
+    object-fit: cover;
+    position: absolute;
+    top: 64px;
+    width: 280px;
+  }
+  
+  .MyWellbeing .vector-7 {
+    height: 1px;
+    left: 40px;
+    object-fit: cover;
+    position: absolute;
+    top: 48px;
+    width: 280px;
+  }
+  
+  .MyWellbeing .vector-8 {
+    height: 1px;
+    left: 40px;
+    object-fit: cover;
+    position: absolute;
+    top: 32px;
+    width: 280px;
+  }
+  
+  .MyWellbeing .vector-9 {
+    height: 1px;
+    left: 40px;
+    object-fit: cover;
+    position: absolute;
+    top: 16px;
+    width: 280px;
+  }
+  
+  .MyWellbeing .vector-10 {
+    height: 1px;
+    left: 40px;
+    object-fit: cover;
+    position: absolute;
+    top: 128px;
+    width: 280px;
+  }
+  
+  .MyWellbeing .vector-11 {
+    height: 1px;
+    left: 40px;
+    object-fit: cover;
+    position: absolute;
+    top: 144px;
+    width: 280px;
+  }
+  
+  .MyWellbeing .vector-12 {
+    height: 1px;
+    left: 40px;
+    object-fit: cover;
+    position: absolute;
+    top: 160px;
+    width: 280px;
+  }
+  
+  .MyWellbeing .vector-13 {
+    height: 1px;
+    left: 40px;
+    object-fit: cover;
+    position: absolute;
+    top: 112px;
+    width: 280px;
+  }
+  
+  .MyWellbeing .rectangle-2 {
+    background-color: #7ed33e;
+    border-radius: 0px 10px 10px 0px;
+    height: 8px;
+    left: 0;
+    position: absolute;
+    top: 124px;
+    transform: rotate(-90deg);
+    width: 96px;
+  }
+  
+  .MyWellbeing .rectangle-3 {
+    background-color: #7ed33e;
+    border-radius: 0px 10px 10px 0px;
+    height: 8px;
+    left: 20px;
+    position: absolute;
+    top: 120px;
+    transform: rotate(-90deg);
+    width: 104px;
+  }
+  
+  .MyWellbeing .rectangle-4 {
+    background-color: #7ed33e;
+    border-radius: 0px 10px 10px 0px;
+    height: 8px;
+    left: 59px;
+    position: absolute;
+    top: 112px;
+    transform: rotate(-90deg);
+    width: 120px;
+  }
+  
+  .MyWellbeing .rectangle-5 {
+    background-color: #7ed33e;
+    border-radius: 0px 10px 10px 0px;
+    height: 8px;
+    left: 48px;
+    position: absolute;
+    top: 124px;
+    transform: rotate(-90deg);
+    width: 96px;
+  }
+  
+  .MyWellbeing .rectangle-6 {
+    background-color: #7ed33e;
+    border-radius: 0px 10px 10px 0px;
+    height: 8px;
+    left: 79px;
+    position: absolute;
+    top: 105px;
+    transform: rotate(-90deg);
+    width: 133px;
+  }
+  
+  .MyWellbeing .rectangle-7 {
+    background-color: #7ed33e;
+    border-radius: 0px 10px 10px 0px;
+    height: 8px;
+    left: 126px;
+    position: absolute;
+    top: 129px;
+    transform: rotate(-90deg);
+    width: 86px;
+  }
+  
+  .MyWellbeing .rectangle-8 {
+    background-color: #7ed33e;
+    border-radius: 0px 10px 10px 0px;
+    height: 8px;
+    left: 173px;
+    position: absolute;
+    top: 129px;
+    transform: rotate(-90deg);
+    width: 86px;
+  }
+  
+  .MyWellbeing .rectangle-9 {
+    background-color: #7ed33e;
+    border-radius: 0px 10px 10px 0px;
+    height: 8px;
+    left: 142px;
+    position: absolute;
+    top: 122px;
+    transform: rotate(-90deg);
+    width: 100px;
+  }
+  
+  .MyWellbeing .rectangle-10 {
+    background-color: #7ed33e;
+    border-radius: 0px 10px 10px 0px;
+    height: 8px;
+    left: 181px;
+    position: absolute;
+    top: 113px;
+    transform: rotate(-90deg);
+    width: 118px;
+  }
+  
+  .MyWellbeing .rectangle-11 {
+    background-color: #7ed33e;
+    border-radius: 0px 10px 10px 0px;
+    height: 8px;
+    left: 212px;
+    position: absolute;
+    top: 120px;
+    transform: rotate(-90deg);
+    width: 104px;
+  }
+  
+  .MyWellbeing .rectangle-12 {
+    background-color: #7ed33e;
+    border-radius: 0px 10px 10px 0px;
+    height: 8px;
+    left: 220px;
+    position: absolute;
+    top: 104px;
+    transform: rotate(-90deg);
+    width: 136px;
+  }
+  
+  .MyWellbeing .rectangle-13 {
+    background-color: #7ed33e;
+    border-radius: 0px 10px 10px 0px;
+    height: 8px;
+    left: 239px;
+    position: absolute;
+    top: 100px;
+    transform: rotate(-90deg);
+    width: 144px;
+  }
+  
+  .MyWellbeing .rectangle-14 {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #eb8181;
+    border-left-style: solid;
+    border-left-width: 1px;
+    height: 176px;
+    left: 32px;
+    position: absolute;
+    top: 0;
+    width: 288px;
+  }
+  
+  .MyWellbeing .vector-14 {
+    height: 64px;
+    left: 47px;
+    position: absolute;
+    top: 18px;
+    width: 265px;
+  }
+  
+  .MyWellbeing .vector-15 {
+    height: 3px;
+    left: 232px;
+    position: absolute;
+    top: 202px;
+    width: 19px;
+  }
+  
+  .MyWellbeing .ellipse-4 {
+    background-color: #7ed33e;
+    border-radius: 3.5px;
+    height: 7px;
+    left: 292px;
+    position: absolute;
+    top: 201px;
+    width: 7px;
+  }
+  

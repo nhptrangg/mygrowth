@@ -1,1 +1,16 @@
-node_modules
+# .gitignore
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore Parcel cache and build output
+.parcel-cache/data.mdb
+dist/
+
+# Ignore lock files
+package-lock.json
+yarn.lock
+
+# Ignore sourcemaps
+*.js.map
+*.css.map
