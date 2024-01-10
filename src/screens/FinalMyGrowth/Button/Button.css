@@ -17,3 +17,17 @@
   white-space: nowrap;
   height: 20px;
 }
+
+.special-thanks {
+  color: #565454;
+  font-family: "Poppins", Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  height: 20px;
+  left: 11px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  top: 7px;
+  white-space: nowrap;
+}

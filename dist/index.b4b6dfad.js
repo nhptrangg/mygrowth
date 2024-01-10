@@ -2952,6 +2952,9 @@ var _finalMyGrowth = require("./screens/FinalMyGrowth/FinalMyGrowth");
 var _finalMyGrowthDefault = parcelHelpers.interopDefault(_finalMyGrowth);
 var _appreciation = require("./screens/Appreciation/Appreciation");
 var _appreciationDefault = parcelHelpers.interopDefault(_appreciation);
+var _badgesAndAchievements = require("./screens/BadgesAndAchievements/BadgesAndAchievements");
+var _badgesAndAchievementsDefault = parcelHelpers.interopDefault(_badgesAndAchievements);
+var _myWellbeing = require("./screens/MyWellbeing/MyWellbeing");
 const app = document.getElementById("root");
 const root = (0, _client.createRoot)(app);
 const App = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.BrowserRouter), {
@@ -2963,7 +2966,7 @@ const App = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Bro
                         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _finalMyGrowthDefault.default), {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 14,
+                        lineNumber: 17,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
@@ -2971,29 +2974,45 @@ const App = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Bro
                         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _appreciationDefault.default), {}, void 0, false, void 0, void 0)
                     }, void 0, false, {
                         fileName: "src/index.jsx",
-                        lineNumber: 15,
+                        lineNumber: 18,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "/BadgesAndAchievements",
+                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _badgesAndAchievementsDefault.default), {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/index.jsx",
+                        lineNumber: 19,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "/MyWellbeing",
+                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _myWellbeing.MyWellbeing), {}, void 0, false, void 0, void 0)
+                    }, void 0, false, {
+                        fileName: "src/index.jsx",
+                        lineNumber: 20,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/index.jsx",
-                lineNumber: 13,
+                lineNumber: 16,
                 columnNumber: 5
             }, undefined)
         }, void 0, false, {
             fileName: "src/index.jsx",
-            lineNumber: 12,
+            lineNumber: 15,
             columnNumber: 5
         }, undefined)
     }, void 0, false, {
         fileName: "src/index.jsx",
-        lineNumber: 11,
+        lineNumber: 14,
         columnNumber: 3
     }, undefined);
 _c = App;
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
     fileName: "src/index.jsx",
-    lineNumber: 21,
+    lineNumber: 26,
     columnNumber: 13
 }, undefined));
 var _c;
@@ -3004,7 +3023,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","react-router-dom":"9xmpe","./screens/FinalMyGrowth/FinalMyGrowth":"cC9Ek","./screens/Appreciation/Appreciation":"4FlxK","@parcel/transformer-js/src/esmodule-helpers.js":"9FYyo","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"77JU4"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","react-router-dom":"9xmpe","./screens/FinalMyGrowth/FinalMyGrowth":"cC9Ek","./screens/Appreciation/Appreciation":"4FlxK","./screens/BadgesAndAchievements/BadgesAndAchievements":"8eauV","./screens/MyWellbeing/MyWellbeing":"aH5SQ","@parcel/transformer-js/src/esmodule-helpers.js":"9FYyo","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"77JU4"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("ee51401569654d91");
 
@@ -33704,8 +33723,12 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _solidStatusLock1 = require("../../icons/SolidStatusLock1");
 var _styleCss = require("./style.css");
-var _button = require("./Button/Button");
-var _buttonDefault = parcelHelpers.interopDefault(_button);
+var _buttonToAppreciation = require("./Button/ButtonToAppreciation");
+var _buttonToAppreciationDefault = parcelHelpers.interopDefault(_buttonToAppreciation);
+var _buttonToBadges = require("./Button/ButtonToBadges");
+var _buttonToBadgesDefault = parcelHelpers.interopDefault(_buttonToBadges);
+var _buttonToMyWellbeing = require("./Button/ButtonToMyWellbeing");
+var _buttonToMyWellbeingDefault = parcelHelpers.interopDefault(_buttonToMyWellbeing);
 const FinalMyGrowth = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "FINAL-my-growth",
@@ -33717,7 +33740,7 @@ const FinalMyGrowth = ()=>{
                     children: "My Growth"
                 }, void 0, false, {
                     fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                    lineNumber: 10,
+                    lineNumber: 12,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -33729,7 +33752,7 @@ const FinalMyGrowth = ()=>{
                             src: "https://c.animaapp.com/1ErxMTJR/img/group-1732.png"
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 12,
+                            lineNumber: 14,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -33737,7 +33760,7 @@ const FinalMyGrowth = ()=>{
                             children: "Name"
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 13,
+                            lineNumber: 15,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -33749,7 +33772,7 @@ const FinalMyGrowth = ()=>{
                                     src: "https://c.animaapp.com/1ErxMTJR/img/rectangle-2678.png"
                                 }, void 0, false, {
                                     fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                    lineNumber: 15,
+                                    lineNumber: 17,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -33758,7 +33781,7 @@ const FinalMyGrowth = ()=>{
                                     src: "https://c.animaapp.com/1ErxMTJR/img/vector-2.png"
                                 }, void 0, false, {
                                     fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                    lineNumber: 16,
+                                    lineNumber: 18,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -33766,13 +33789,13 @@ const FinalMyGrowth = ()=>{
                                     children: "0"
                                 }, void 0, false, {
                                     fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                    lineNumber: 17,
+                                    lineNumber: 19,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 14,
+                            lineNumber: 16,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -33781,7 +33804,7 @@ const FinalMyGrowth = ()=>{
                             src: "https://c.animaapp.com/1ErxMTJR/img/group-1733.png"
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 19,
+                            lineNumber: 21,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -33795,7 +33818,7 @@ const FinalMyGrowth = ()=>{
                                             children: "Growth"
                                         }, void 0, false, {
                                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                            lineNumber: 22,
+                                            lineNumber: 24,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -33803,13 +33826,13 @@ const FinalMyGrowth = ()=>{
                                             children: "Circles"
                                         }, void 0, false, {
                                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                            lineNumber: 23,
+                                            lineNumber: 25,
                                             columnNumber: 15
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                    lineNumber: 21,
+                                    lineNumber: 23,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -33818,19 +33841,19 @@ const FinalMyGrowth = ()=>{
                                     src: "https://c.animaapp.com/1ErxMTJR/img/vector-1.svg"
                                 }, void 0, false, {
                                     fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                    lineNumber: 25,
+                                    lineNumber: 27,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 20,
+                            lineNumber: 22,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                    lineNumber: 11,
+                    lineNumber: 13,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -33838,7 +33861,7 @@ const FinalMyGrowth = ()=>{
                     children: "Overall data collected over all circles attended"
                 }, void 0, false, {
                     fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                    lineNumber: 28,
+                    lineNumber: 30,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -33852,27 +33875,27 @@ const FinalMyGrowth = ()=>{
                                     children: "Appreciation"
                                 }, void 0, false, {
                                     fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                    lineNumber: 31,
+                                    lineNumber: 33,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                     className: "see-more-wrapper",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _buttonDefault.default), {
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _buttonToAppreciationDefault.default), {
                                         children: "See more"
                                     }, void 0, false, {
                                         fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                        lineNumber: 33,
+                                        lineNumber: 35,
                                         columnNumber: 13
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                    lineNumber: 32,
+                                    lineNumber: 34,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 30,
+                            lineNumber: 32,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -33883,12 +33906,12 @@ const FinalMyGrowth = ()=>{
                                 src: "https://c.animaapp.com/1ErxMTJR/img/group-891.png"
                             }, void 0, false, {
                                 fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                lineNumber: 37,
+                                lineNumber: 39,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 36,
+                            lineNumber: 38,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -33896,7 +33919,7 @@ const FinalMyGrowth = ()=>{
                             children: "x3"
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 39,
+                            lineNumber: 41,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -33907,12 +33930,12 @@ const FinalMyGrowth = ()=>{
                                 src: "https://c.animaapp.com/1ErxMTJR/img/group-892.png"
                             }, void 0, false, {
                                 fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                lineNumber: 41,
+                                lineNumber: 43,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 40,
+                            lineNumber: 42,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -33923,12 +33946,12 @@ const FinalMyGrowth = ()=>{
                                 src: "https://c.animaapp.com/1ErxMTJR/img/vector.png"
                             }, void 0, false, {
                                 fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                lineNumber: 44,
+                                lineNumber: 46,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 43,
+                            lineNumber: 45,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -33936,7 +33959,7 @@ const FinalMyGrowth = ()=>{
                             children: "x2"
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 46,
+                            lineNumber: 48,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -33944,7 +33967,7 @@ const FinalMyGrowth = ()=>{
                             children: "0"
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 47,
+                            lineNumber: 49,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -33952,7 +33975,7 @@ const FinalMyGrowth = ()=>{
                             children: "Efforts"
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 48,
+                            lineNumber: 50,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -33961,14 +33984,14 @@ const FinalMyGrowth = ()=>{
                                 "Care &",
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                     fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                    lineNumber: 51,
+                                    lineNumber: 53,
                                     columnNumber: 13
                                 }, undefined),
                                 "Support"
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 49,
+                            lineNumber: 51,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -33976,13 +33999,13 @@ const FinalMyGrowth = ()=>{
                             children: "Role"
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 54,
+                            lineNumber: 56,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                    lineNumber: 29,
+                    lineNumber: 31,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -33996,28 +34019,27 @@ const FinalMyGrowth = ()=>{
                                     children: "Badges & Achievements"
                                 }, void 0, false, {
                                     fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                    lineNumber: 58,
+                                    lineNumber: 60,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                     className: "div-wrapper",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "text-wrapper-11",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _buttonToBadgesDefault.default), {
                                         children: "See more"
                                     }, void 0, false, {
                                         fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                        lineNumber: 60,
+                                        lineNumber: 62,
                                         columnNumber: 15
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                    lineNumber: 59,
+                                    lineNumber: 61,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 57,
+                            lineNumber: 59,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -34026,7 +34048,7 @@ const FinalMyGrowth = ()=>{
                             src: "https://c.animaapp.com/1ErxMTJR/img/group-1739.png"
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 63,
+                            lineNumber: 64,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34035,12 +34057,12 @@ const FinalMyGrowth = ()=>{
                                 className: "ellipse"
                             }, void 0, false, {
                                 fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                lineNumber: 65,
+                                lineNumber: 66,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 64,
+                            lineNumber: 65,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34049,12 +34071,12 @@ const FinalMyGrowth = ()=>{
                                 className: "ellipse"
                             }, void 0, false, {
                                 fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                lineNumber: 68,
+                                lineNumber: 69,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 67,
+                            lineNumber: 68,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34063,12 +34085,12 @@ const FinalMyGrowth = ()=>{
                                 className: "ellipse"
                             }, void 0, false, {
                                 fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                lineNumber: 71,
+                                lineNumber: 72,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 70,
+                            lineNumber: 71,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34077,12 +34099,12 @@ const FinalMyGrowth = ()=>{
                                 className: "ellipse"
                             }, void 0, false, {
                                 fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                lineNumber: 74,
+                                lineNumber: 75,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 73,
+                            lineNumber: 74,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34090,7 +34112,7 @@ const FinalMyGrowth = ()=>{
                             children: "Badges"
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 76,
+                            lineNumber: 77,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34098,7 +34120,7 @@ const FinalMyGrowth = ()=>{
                             children: "Achievements"
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 77,
+                            lineNumber: 78,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34112,30 +34134,30 @@ const FinalMyGrowth = ()=>{
                                             className: "ellipse-2"
                                         }, void 0, false, {
                                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                            lineNumber: 81,
+                                            lineNumber: 82,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                        lineNumber: 80,
+                                        lineNumber: 81,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _solidStatusLock1.SolidStatusLock1), {
                                         className: "solid-status-lock"
                                     }, void 0, false, {
                                         fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                        lineNumber: 83,
+                                        lineNumber: 84,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                lineNumber: 79,
+                                lineNumber: 80,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 78,
+                            lineNumber: 79,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -34144,13 +34166,13 @@ const FinalMyGrowth = ()=>{
                             src: "https://c.animaapp.com/1ErxMTJR/img/group-1807.png"
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 86,
+                            lineNumber: 87,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                    lineNumber: 56,
+                    lineNumber: 58,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34164,7 +34186,7 @@ const FinalMyGrowth = ()=>{
                                     children: "Topics Done"
                                 }, void 0, false, {
                                     fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                    lineNumber: 90,
+                                    lineNumber: 91,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34174,18 +34196,18 @@ const FinalMyGrowth = ()=>{
                                         children: "See more"
                                     }, void 0, false, {
                                         fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                        lineNumber: 92,
+                                        lineNumber: 93,
                                         columnNumber: 15
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                    lineNumber: 91,
+                                    lineNumber: 92,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 89,
+                            lineNumber: 90,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34195,12 +34217,12 @@ const FinalMyGrowth = ()=>{
                                 children: "#1"
                             }, void 0, false, {
                                 fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                lineNumber: 96,
+                                lineNumber: 97,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 95,
+                            lineNumber: 96,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34210,12 +34232,12 @@ const FinalMyGrowth = ()=>{
                                 children: "#2"
                             }, void 0, false, {
                                 fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                lineNumber: 99,
+                                lineNumber: 100,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 98,
+                            lineNumber: 99,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34225,12 +34247,12 @@ const FinalMyGrowth = ()=>{
                                 children: "#3"
                             }, void 0, false, {
                                 fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                lineNumber: 102,
+                                lineNumber: 103,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 101,
+                            lineNumber: 102,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34238,7 +34260,7 @@ const FinalMyGrowth = ()=>{
                             children: "Burn Out"
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 104,
+                            lineNumber: 105,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34246,7 +34268,7 @@ const FinalMyGrowth = ()=>{
                             children: "Life\u2019s Purpose"
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 105,
+                            lineNumber: 106,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34254,13 +34276,13 @@ const FinalMyGrowth = ()=>{
                             children: "Loneliness"
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 106,
+                            lineNumber: 107,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                    lineNumber: 88,
+                    lineNumber: 89,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34273,12 +34295,12 @@ const FinalMyGrowth = ()=>{
                                 children: "My Roles"
                             }, void 0, false, {
                                 fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                lineNumber: 110,
+                                lineNumber: 111,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 109,
+                            lineNumber: 110,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -34287,41 +34309,41 @@ const FinalMyGrowth = ()=>{
                             src: "https://c.animaapp.com/1ErxMTJR/img/group-1737.png"
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 112,
+                            lineNumber: 113,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "rectangle-2"
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 113,
+                            lineNumber: 114,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "rectangle-3"
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 114,
+                            lineNumber: 115,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "rectangle-4"
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 115,
+                            lineNumber: 116,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "rectangle-5"
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 116,
+                            lineNumber: 117,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                    lineNumber: 108,
+                    lineNumber: 109,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34331,15 +34353,21 @@ const FinalMyGrowth = ()=>{
                             className: "overlap-11",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 className: "text-wrapper-21",
-                                children: "Special Thanks"
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _buttonToAppreciationDefault.default), {
+                                    children: "Special Thanks"
+                                }, void 0, false, {
+                                    fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
+                                    lineNumber: 121,
+                                    columnNumber: 46
+                                }, undefined)
                             }, void 0, false, {
                                 fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                lineNumber: 120,
+                                lineNumber: 121,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 119,
+                            lineNumber: 120,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -34348,7 +34376,7 @@ const FinalMyGrowth = ()=>{
                             src: "https://c.animaapp.com/1ErxMTJR/img/lorem-ipsum-dolor-sit-amet-consectetur--pulvinar-vestibulum-nibh.png"
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 122,
+                            lineNumber: 123,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34359,7 +34387,7 @@ const FinalMyGrowth = ()=>{
                                     children: "Name"
                                 }, void 0, false, {
                                     fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                    lineNumber: 128,
+                                    lineNumber: 129,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34371,29 +34399,29 @@ const FinalMyGrowth = ()=>{
                                             children: "NL"
                                         }, void 0, false, {
                                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                            lineNumber: 131,
+                                            lineNumber: 132,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                        lineNumber: 130,
+                                        lineNumber: 131,
                                         columnNumber: 15
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                    lineNumber: 129,
+                                    lineNumber: 130,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 127,
+                            lineNumber: 128,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                    lineNumber: 118,
+                    lineNumber: 119,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34407,28 +34435,27 @@ const FinalMyGrowth = ()=>{
                                     children: "My Wellbeing"
                                 }, void 0, false, {
                                     fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                    lineNumber: 138,
+                                    lineNumber: 139,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                     className: "div-wrapper",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "text-wrapper-11",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _buttonToMyWellbeingDefault.default), {
                                         children: "See more"
                                     }, void 0, false, {
                                         fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                        lineNumber: 140,
+                                        lineNumber: 141,
                                         columnNumber: 15
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                    lineNumber: 139,
+                                    lineNumber: 140,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 137,
+                            lineNumber: 138,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -34437,7 +34464,7 @@ const FinalMyGrowth = ()=>{
                             src: "https://c.animaapp.com/1ErxMTJR/img/32--40.png"
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 143,
+                            lineNumber: 144,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -34446,7 +34473,7 @@ const FinalMyGrowth = ()=>{
                             src: "https://c.animaapp.com/1ErxMTJR/img/your-average-rating.png"
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 144,
+                            lineNumber: 145,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34454,7 +34481,7 @@ const FinalMyGrowth = ()=>{
                             children: "Individually"
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 149,
+                            lineNumber: 150,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34462,7 +34489,7 @@ const FinalMyGrowth = ()=>{
                             children: "8"
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 150,
+                            lineNumber: 151,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34470,7 +34497,7 @@ const FinalMyGrowth = ()=>{
                             children: "Interpersonally"
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 151,
+                            lineNumber: 152,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34478,7 +34505,7 @@ const FinalMyGrowth = ()=>{
                             children: "8"
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 152,
+                            lineNumber: 153,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34486,7 +34513,7 @@ const FinalMyGrowth = ()=>{
                             children: "Socially"
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 153,
+                            lineNumber: 154,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34494,7 +34521,7 @@ const FinalMyGrowth = ()=>{
                             children: "8"
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 154,
+                            lineNumber: 155,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34502,7 +34529,7 @@ const FinalMyGrowth = ()=>{
                             children: "Overall"
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 155,
+                            lineNumber: 156,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34510,7 +34537,7 @@ const FinalMyGrowth = ()=>{
                             children: "8"
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 156,
+                            lineNumber: 157,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -34519,7 +34546,7 @@ const FinalMyGrowth = ()=>{
                             src: "https://c.animaapp.com/1ErxMTJR/img/line-208.svg"
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 157,
+                            lineNumber: 158,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34527,13 +34554,13 @@ const FinalMyGrowth = ()=>{
                             children: "Scores"
                         }, void 0, false, {
                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                            lineNumber: 158,
+                            lineNumber: 159,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                    lineNumber: 136,
+                    lineNumber: 137,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -34542,7 +34569,7 @@ const FinalMyGrowth = ()=>{
                     src: "https://c.animaapp.com/1ErxMTJR/img/group-1831.png"
                 }, void 0, false, {
                     fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                    lineNumber: 160,
+                    lineNumber: 161,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34558,7 +34585,7 @@ const FinalMyGrowth = ()=>{
                                         children: "Self Awareness Tools"
                                     }, void 0, false, {
                                         fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                        lineNumber: 164,
+                                        lineNumber: 165,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34568,18 +34595,18 @@ const FinalMyGrowth = ()=>{
                                             children: "See more"
                                         }, void 0, false, {
                                             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                            lineNumber: 166,
+                                            lineNumber: 167,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                        lineNumber: 165,
+                                        lineNumber: 166,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                lineNumber: 163,
+                                lineNumber: 164,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34587,7 +34614,7 @@ const FinalMyGrowth = ()=>{
                                 children: "Top 3 Tools used"
                             }, void 0, false, {
                                 fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                lineNumber: 169,
+                                lineNumber: 170,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -34596,7 +34623,7 @@ const FinalMyGrowth = ()=>{
                                 src: "https://c.animaapp.com/1ErxMTJR/img/mask-group-2.png"
                             }, void 0, false, {
                                 fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                lineNumber: 170,
+                                lineNumber: 171,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -34605,7 +34632,7 @@ const FinalMyGrowth = ()=>{
                                 src: "https://c.animaapp.com/1ErxMTJR/img/mask-group-1.png"
                             }, void 0, false, {
                                 fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                lineNumber: 171,
+                                lineNumber: 172,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -34614,29 +34641,29 @@ const FinalMyGrowth = ()=>{
                                 src: "https://c.animaapp.com/1ErxMTJR/img/mask-group.png"
                             }, void 0, false, {
                                 fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                                lineNumber: 172,
+                                lineNumber: 173,
                                 columnNumber: 13
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                        lineNumber: 162,
+                        lineNumber: 163,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-                    lineNumber: 161,
+                    lineNumber: 162,
                     columnNumber: 9
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-            lineNumber: 9,
+            lineNumber: 11,
             columnNumber: 7
         }, undefined)
     }, void 0, false, {
         fileName: "src/screens/FinalMyGrowth/FinalMyGrowth.jsx",
-        lineNumber: 8,
+        lineNumber: 10,
         columnNumber: 5
     }, undefined);
 };
@@ -34650,7 +34677,7 @@ $RefreshReg$(_c, "FinalMyGrowth");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../icons/SolidStatusLock1":"cZb2L","./style.css":"7Wz3R","./Button/Button":"6wURN","@parcel/transformer-js/src/esmodule-helpers.js":"9FYyo","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"77JU4"}],"cZb2L":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../icons/SolidStatusLock1":"cZb2L","./style.css":"7Wz3R","./Button/ButtonToAppreciation":"8tvJX","./Button/ButtonToBadges":"aKOqo","./Button/ButtonToMyWellbeing":"l5zal","@parcel/transformer-js/src/esmodule-helpers.js":"9FYyo","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"77JU4"}],"cZb2L":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "SolidStatusLock1", ()=>(0, _solidStatusLock1.SolidStatusLock1));
@@ -34841,11 +34868,11 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"2065b149db15e66d":"9BVyK"}],"7Wz3R":[function() {},{}],"6wURN":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$e053 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"2065b149db15e66d":"9BVyK"}],"7Wz3R":[function() {},{}],"8tvJX":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$f908 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$e053.prelude(module);
+$parcel$ReactRefreshHelpers$f908.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -34856,7 +34883,7 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 var _buttonCss = require("./Button.css"); // Import the CSS file
 var _reactRouterDom = require("react-router-dom");
 var _s = $RefreshSig$();
-function Button() {
+function ButtonToAppreciation() {
     _s();
     const navigate = (0, _reactRouterDom.useNavigate)();
     const navigateToAppreciation = ()=>{
@@ -34870,27 +34897,135 @@ function Button() {
             className: "custom-text",
             children: "See more"
         }, void 0, false, {
-            fileName: "src/screens/FinalMyGrowth/Button/Button.jsx",
+            fileName: "src/screens/FinalMyGrowth/Button/ButtonToAppreciation.jsx",
             lineNumber: 15,
             columnNumber: 5
         }, this)
     }, void 0, false, {
-        fileName: "src/screens/FinalMyGrowth/Button/Button.jsx",
+        fileName: "src/screens/FinalMyGrowth/Button/ButtonToAppreciation.jsx",
         lineNumber: 14,
         columnNumber: 5
     }, this);
 }
-_s(Button, "CzcTeTziyjMsSrAVmHuCCb6+Bfg=", false, function() {
+_s(ButtonToAppreciation, "CzcTeTziyjMsSrAVmHuCCb6+Bfg=", false, function() {
     return [
         (0, _reactRouterDom.useNavigate)
     ];
 });
-_c = Button;
-exports.default = Button;
+_c = ButtonToAppreciation;
+exports.default = ButtonToAppreciation;
 var _c;
-$RefreshReg$(_c, "Button");
+$RefreshReg$(_c, "ButtonToAppreciation");
 
-  $parcel$ReactRefreshHelpers$e053.postlude(module);
+  $parcel$ReactRefreshHelpers$f908.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Button.css":"9j7pR","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"9FYyo","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"77JU4"}],"9j7pR":[function() {},{}],"aKOqo":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$683a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$683a.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _buttonCss = require("./Button.css"); // Import the CSS file
+var _reactRouterDom = require("react-router-dom");
+var _s = $RefreshSig$();
+function ButtonToBadges() {
+    _s();
+    const navigate = (0, _reactRouterDom.useNavigate)();
+    const navigateToBadges = ()=>{
+        // Handle button click logic here
+        navigate("/BadgesAndAchievements");
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+        className: "custom-button",
+        onClick: navigateToBadges,
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "custom-text",
+            children: "See more"
+        }, void 0, false, {
+            fileName: "src/screens/FinalMyGrowth/Button/ButtonToBadges.jsx",
+            lineNumber: 15,
+            columnNumber: 5
+        }, this)
+    }, void 0, false, {
+        fileName: "src/screens/FinalMyGrowth/Button/ButtonToBadges.jsx",
+        lineNumber: 14,
+        columnNumber: 5
+    }, this);
+}
+_s(ButtonToBadges, "CzcTeTziyjMsSrAVmHuCCb6+Bfg=", false, function() {
+    return [
+        (0, _reactRouterDom.useNavigate)
+    ];
+});
+_c = ButtonToBadges;
+exports.default = ButtonToBadges;
+var _c;
+$RefreshReg$(_c, "ButtonToBadges");
+
+  $parcel$ReactRefreshHelpers$683a.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Button.css":"9j7pR","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"9FYyo","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"77JU4"}],"9j7pR":[function() {},{}],"l5zal":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$f9bb = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$f9bb.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _buttonCss = require("./Button.css"); // Import the CSS file
+var _reactRouterDom = require("react-router-dom");
+var _s = $RefreshSig$();
+function ButtonToMyWellbeing() {
+    _s();
+    const navigate = (0, _reactRouterDom.useNavigate)();
+    const navigateToMyWellbeing = ()=>{
+        // Handle button click logic here
+        navigate("/MyWellbeing");
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+        className: "custom-button",
+        onClick: navigateToMyWellbeing,
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "custom-text",
+            children: "See more"
+        }, void 0, false, {
+            fileName: "src/screens/FinalMyGrowth/Button/ButtonToMyWellbeing.jsx",
+            lineNumber: 15,
+            columnNumber: 5
+        }, this)
+    }, void 0, false, {
+        fileName: "src/screens/FinalMyGrowth/Button/ButtonToMyWellbeing.jsx",
+        lineNumber: 14,
+        columnNumber: 5
+    }, this);
+}
+_s(ButtonToMyWellbeing, "CzcTeTziyjMsSrAVmHuCCb6+Bfg=", false, function() {
+    return [
+        (0, _reactRouterDom.useNavigate)
+    ];
+});
+_c = ButtonToMyWellbeing;
+exports.default = ButtonToMyWellbeing;
+var _c;
+$RefreshReg$(_c, "ButtonToMyWellbeing");
+
+  $parcel$ReactRefreshHelpers$f9bb.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
@@ -34908,6 +35043,8 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _styleCss = require("./style.css");
+var _buttonToMain = require("../FinalMyGrowth/Button/ButtonToMain");
+var _buttonToMainDefault = parcelHelpers.interopDefault(_buttonToMain);
 const Appreciation = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "Appreciation",
@@ -34930,7 +35067,7 @@ const Appreciation = ()=>{
                                                 children: "EFFORTS"
                                             }, void 0, false, {
                                                 fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                                lineNumber: 12,
+                                                lineNumber: 13,
                                                 columnNumber: 17
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -34939,18 +35076,18 @@ const Appreciation = ()=>{
                                                 src: "https://c.animaapp.com/Rm7LACSI/img/group-1715@2x.png"
                                             }, void 0, false, {
                                                 fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                                lineNumber: 13,
+                                                lineNumber: 14,
                                                 columnNumber: 17
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                        lineNumber: 11,
+                                        lineNumber: 12,
                                         columnNumber: 15
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 10,
+                                    lineNumber: 11,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34964,14 +35101,14 @@ const Appreciation = ()=>{
                                                     "CARE &",
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                                         fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                                        lineNumber: 20,
+                                                        lineNumber: 21,
                                                         columnNumber: 19
                                                     }, undefined),
                                                     "SUPPORT"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                                lineNumber: 18,
+                                                lineNumber: 19,
                                                 columnNumber: 17
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -34980,18 +35117,18 @@ const Appreciation = ()=>{
                                                 src: "https://c.animaapp.com/Rm7LACSI/img/group-1716@2x.png"
                                             }, void 0, false, {
                                                 fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                                lineNumber: 23,
+                                                lineNumber: 24,
                                                 columnNumber: 17
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                        lineNumber: 17,
+                                        lineNumber: 18,
                                         columnNumber: 15
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 16,
+                                    lineNumber: 17,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35004,7 +35141,7 @@ const Appreciation = ()=>{
                                                 children: "ROLE"
                                             }, void 0, false, {
                                                 fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                                lineNumber: 28,
+                                                lineNumber: 29,
                                                 columnNumber: 17
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -35013,24 +35150,24 @@ const Appreciation = ()=>{
                                                 src: "https://c.animaapp.com/Rm7LACSI/img/vector-2.svg"
                                             }, void 0, false, {
                                                 fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                                lineNumber: 29,
+                                                lineNumber: 30,
                                                 columnNumber: 17
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                        lineNumber: 27,
+                                        lineNumber: 28,
                                         columnNumber: 15
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 26,
+                                    lineNumber: 27,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 9,
+                            lineNumber: 10,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35041,7 +35178,7 @@ const Appreciation = ()=>{
                                     children: "x3"
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 34,
+                                    lineNumber: 35,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35053,23 +35190,23 @@ const Appreciation = ()=>{
                                             children: "x3"
                                         }, void 0, false, {
                                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                            lineNumber: 37,
+                                            lineNumber: 38,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                        lineNumber: 36,
+                                        lineNumber: 37,
                                         columnNumber: 15
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 35,
+                                    lineNumber: 36,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 33,
+                            lineNumber: 34,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35081,17 +35218,17 @@ const Appreciation = ()=>{
                                     children: "-"
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 43,
+                                    lineNumber: 44,
                                     columnNumber: 15
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                lineNumber: 42,
+                                lineNumber: 43,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 41,
+                            lineNumber: 42,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35103,17 +35240,17 @@ const Appreciation = ()=>{
                                     children: "-"
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 48,
+                                    lineNumber: 49,
                                     columnNumber: 15
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                lineNumber: 47,
+                                lineNumber: 48,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 46,
+                            lineNumber: 47,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35121,7 +35258,7 @@ const Appreciation = ()=>{
                             children: "When others praised me"
                         }, void 0, false, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 51,
+                            lineNumber: 52,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35129,7 +35266,7 @@ const Appreciation = ()=>{
                             children: "When I praised myself"
                         }, void 0, false, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 52,
+                            lineNumber: 53,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35141,17 +35278,17 @@ const Appreciation = ()=>{
                                     children: "x1"
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 55,
+                                    lineNumber: 56,
                                     columnNumber: 15
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                lineNumber: 54,
+                                lineNumber: 55,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 53,
+                            lineNumber: 54,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35163,17 +35300,17 @@ const Appreciation = ()=>{
                                     children: "x1"
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 60,
+                                    lineNumber: 61,
                                     columnNumber: 15
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                lineNumber: 59,
+                                lineNumber: 60,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 58,
+                            lineNumber: 59,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35185,17 +35322,17 @@ const Appreciation = ()=>{
                                     children: "x2"
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 65,
+                                    lineNumber: 66,
                                     columnNumber: 15
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                lineNumber: 64,
+                                lineNumber: 65,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 63,
+                            lineNumber: 64,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35205,18 +35342,18 @@ const Appreciation = ()=>{
                                 children: "Appreciation"
                             }, void 0, false, {
                                 fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                lineNumber: 69,
+                                lineNumber: 70,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 68,
+                            lineNumber: 69,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                    lineNumber: 8,
+                    lineNumber: 9,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35230,7 +35367,7 @@ const Appreciation = ()=>{
                                     children: "Name"
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 74,
+                                    lineNumber: 75,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35242,23 +35379,23 @@ const Appreciation = ()=>{
                                             children: "RS"
                                         }, void 0, false, {
                                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                            lineNumber: 77,
+                                            lineNumber: 78,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                        lineNumber: 76,
+                                        lineNumber: 77,
                                         columnNumber: 15
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 75,
+                                    lineNumber: 76,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 73,
+                            lineNumber: 74,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -35266,7 +35403,7 @@ const Appreciation = ()=>{
                             children: "Lorem ipsum dolor sit amet consectetur. Fermentum etiam commodo molestie in tellus. Quam volutpat vitae nibh nullam."
                         }, void 0, false, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 81,
+                            lineNumber: 82,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35277,7 +35414,7 @@ const Appreciation = ()=>{
                                     children: "Name"
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 86,
+                                    lineNumber: 87,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35289,23 +35426,23 @@ const Appreciation = ()=>{
                                             children: "NL"
                                         }, void 0, false, {
                                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                            lineNumber: 89,
+                                            lineNumber: 90,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                        lineNumber: 88,
+                                        lineNumber: 89,
                                         columnNumber: 15
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 87,
+                                    lineNumber: 88,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 85,
+                            lineNumber: 86,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -35313,7 +35450,7 @@ const Appreciation = ()=>{
                             children: "\u201CAmet morbi lacus sit ultrices tempus amet. Ornare ultricies vivamus sem ipsum orci.\u201D"
                         }, void 0, false, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 93,
+                            lineNumber: 94,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35324,7 +35461,7 @@ const Appreciation = ()=>{
                                     children: "Name"
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 97,
+                                    lineNumber: 98,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35336,23 +35473,23 @@ const Appreciation = ()=>{
                                             children: "LM"
                                         }, void 0, false, {
                                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                            lineNumber: 100,
+                                            lineNumber: 101,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                        lineNumber: 99,
+                                        lineNumber: 100,
                                         columnNumber: 15
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 98,
+                                    lineNumber: 99,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 96,
+                            lineNumber: 97,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -35360,7 +35497,7 @@ const Appreciation = ()=>{
                             children: "\u201CLorem ipsum dolor sit amet consectetur. Sodales iaculis nisl vulputate et. Posuere placerat tortor. Elementum porttitor sed ultrices vel a magna.\u201D"
                         }, void 0, false, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 104,
+                            lineNumber: 105,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35371,7 +35508,7 @@ const Appreciation = ()=>{
                                     children: "Name"
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 109,
+                                    lineNumber: 110,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35383,23 +35520,23 @@ const Appreciation = ()=>{
                                             children: "BH"
                                         }, void 0, false, {
                                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                            lineNumber: 112,
+                                            lineNumber: 113,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                        lineNumber: 111,
+                                        lineNumber: 112,
                                         columnNumber: 15
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 110,
+                                    lineNumber: 111,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 108,
+                            lineNumber: 109,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -35407,7 +35544,7 @@ const Appreciation = ()=>{
                             children: "\u201CLorem ipsum dolor sit amet consectetur. Tincidunt egestas massa aliquam. Dolor sit venenatis sed egestas.\u201D"
                         }, void 0, false, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 116,
+                            lineNumber: 117,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35417,18 +35554,18 @@ const Appreciation = ()=>{
                                 children: "Special Thanks"
                             }, void 0, false, {
                                 fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                lineNumber: 120,
+                                lineNumber: 121,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 119,
+                            lineNumber: 120,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                    lineNumber: 72,
+                    lineNumber: 73,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35436,16 +35573,12 @@ const Appreciation = ()=>{
                     children: "Appreciation & Special Thanks"
                 }, void 0, false, {
                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                    lineNumber: 123,
+                    lineNumber: 124,
                     columnNumber: 9
                 }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    className: "vector-2",
-                    alt: "Vector",
-                    src: "https://c.animaapp.com/Rm7LACSI/img/vector.svg"
-                }, void 0, false, {
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _buttonToMainDefault.default), {}, void 0, false, {
                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                    lineNumber: 124,
+                    lineNumber: 125,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35466,12 +35599,12 @@ const Appreciation = ()=>{
                                                     className: "ellipse"
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                                    lineNumber: 131,
+                                                    lineNumber: 132,
                                                     columnNumber: 21
                                                 }, undefined)
                                             }, void 0, false, {
                                                 fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                                lineNumber: 130,
+                                                lineNumber: 131,
                                                 columnNumber: 19
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35480,33 +35613,33 @@ const Appreciation = ()=>{
                                                     className: "ellipse"
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                                    lineNumber: 134,
+                                                    lineNumber: 135,
                                                     columnNumber: 21
                                                 }, undefined)
                                             }, void 0, false, {
                                                 fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                                lineNumber: 133,
+                                                lineNumber: 134,
                                                 columnNumber: 19
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                        lineNumber: 129,
+                                        lineNumber: 130,
                                         columnNumber: 17
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 128,
+                                    lineNumber: 129,
                                     columnNumber: 15
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                lineNumber: 127,
+                                lineNumber: 128,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 126,
+                            lineNumber: 127,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35514,7 +35647,7 @@ const Appreciation = ()=>{
                             children: "Name"
                         }, void 0, false, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 140,
+                            lineNumber: 141,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35524,7 +35657,7 @@ const Appreciation = ()=>{
                                     className: "rectangle"
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 142,
+                                    lineNumber: 143,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -35533,7 +35666,7 @@ const Appreciation = ()=>{
                                     src: "https://c.animaapp.com/Rm7LACSI/img/vector-4.svg"
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 143,
+                                    lineNumber: 144,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35541,13 +35674,13 @@ const Appreciation = ()=>{
                                     children: "0"
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 144,
+                                    lineNumber: 145,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 141,
+                            lineNumber: 142,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35564,25 +35697,25 @@ const Appreciation = ()=>{
                                                     className: "ellipse-2"
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                                    lineNumber: 150,
+                                                    lineNumber: 151,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                     className: "ellipse-3"
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                                    lineNumber: 151,
+                                                    lineNumber: 152,
                                                     columnNumber: 19
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                            lineNumber: 149,
+                                            lineNumber: 150,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                        lineNumber: 148,
+                                        lineNumber: 149,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35590,18 +35723,18 @@ const Appreciation = ()=>{
                                         children: "c"
                                     }, void 0, false, {
                                         fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                        lineNumber: 154,
+                                        lineNumber: 155,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                lineNumber: 147,
+                                lineNumber: 148,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 146,
+                            lineNumber: 147,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35615,7 +35748,7 @@ const Appreciation = ()=>{
                                             children: "Growth"
                                         }, void 0, false, {
                                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                            lineNumber: 159,
+                                            lineNumber: 160,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -35623,13 +35756,13 @@ const Appreciation = ()=>{
                                             children: "Circles"
                                         }, void 0, false, {
                                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                            lineNumber: 160,
+                                            lineNumber: 161,
                                             columnNumber: 15
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 158,
+                                    lineNumber: 159,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -35638,47 +35771,47 @@ const Appreciation = ()=>{
                                     src: "https://c.animaapp.com/Rm7LACSI/img/vector-3.svg"
                                 }, void 0, false, {
                                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                                    lineNumber: 162,
+                                    lineNumber: 163,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/Appreciation/Appreciation.jsx",
-                            lineNumber: 157,
+                            lineNumber: 158,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                    lineNumber: 125,
+                    lineNumber: 126,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     className: "rectangle-2"
                 }, void 0, false, {
                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                    lineNumber: 165,
+                    lineNumber: 166,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     className: "rectangle-3"
                 }, void 0, false, {
                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                    lineNumber: 166,
+                    lineNumber: 167,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     className: "rectangle-4"
                 }, void 0, false, {
                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                    lineNumber: 167,
+                    lineNumber: 168,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     className: "rectangle-5"
                 }, void 0, false, {
                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                    lineNumber: 168,
+                    lineNumber: 169,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -35687,18 +35820,18 @@ const Appreciation = ()=>{
                     src: "https://c.animaapp.com/Rm7LACSI/img/vector-1.svg"
                 }, void 0, false, {
                     fileName: "src/screens/Appreciation/Appreciation.jsx",
-                    lineNumber: 169,
+                    lineNumber: 170,
                     columnNumber: 9
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/screens/Appreciation/Appreciation.jsx",
-            lineNumber: 7,
+            lineNumber: 8,
             columnNumber: 7
         }, undefined)
     }, void 0, false, {
         fileName: "src/screens/Appreciation/Appreciation.jsx",
-        lineNumber: 6,
+        lineNumber: 7,
         columnNumber: 5
     }, undefined);
 };
@@ -35712,6 +35845,2139 @@ $RefreshReg$(_c, "Appreciation");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./style.css":"ghnU3","@parcel/transformer-js/src/esmodule-helpers.js":"9FYyo","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"77JU4"}],"ghnU3":[function() {},{}]},["LoP7l","4Q7dv","d8Dch"], "d8Dch", "parcelRequireb8e7")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./style.css":"ghnU3","../FinalMyGrowth/Button/ButtonToMain":"oQJVD","@parcel/transformer-js/src/esmodule-helpers.js":"9FYyo","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"77JU4"}],"ghnU3":[function() {},{}],"oQJVD":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$a66c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$a66c.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom");
+var _s = $RefreshSig$();
+function ButtonToMain() {
+    _s();
+    const navigate = (0, _reactRouterDom.useNavigate)();
+    const navigateToMain = ()=>{
+        // Handle button click logic here
+        navigate("/");
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+        className: "custom-button",
+        onClick: navigateToMain,
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                className: "vector-2",
+                alt: "Vector",
+                src: "https://c.animaapp.com/Rm7LACSI/img/vector.svg"
+            }, void 0, false, {
+                fileName: "src/screens/FinalMyGrowth/Button/ButtonToMain.jsx",
+                lineNumber: 15,
+                columnNumber: 5
+            }, this)
+        }, void 0, false, {
+            fileName: "src/screens/FinalMyGrowth/Button/ButtonToMain.jsx",
+            lineNumber: 14,
+            columnNumber: 5
+        }, this)
+    }, void 0, false, {
+        fileName: "src/screens/FinalMyGrowth/Button/ButtonToMain.jsx",
+        lineNumber: 13,
+        columnNumber: 5
+    }, this);
+}
+_s(ButtonToMain, "CzcTeTziyjMsSrAVmHuCCb6+Bfg=", false, function() {
+    return [
+        (0, _reactRouterDom.useNavigate)
+    ];
+});
+_c = ButtonToMain;
+exports.default = ButtonToMain;
+var _c;
+$RefreshReg$(_c, "ButtonToMain");
+
+  $parcel$ReactRefreshHelpers$a66c.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"9FYyo","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"77JU4"}],"8eauV":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$b1cd = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$b1cd.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "BadgesAndAchievements", ()=>BadgesAndAchievements);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _solidStatusLock2 = require("../../../iconsBadges/SolidStatusLock2");
+var _solidStatusLock4 = require("../../../iconsBadges/SolidStatusLock4");
+var _styleCss = require("./style.css");
+var _buttonToMain = require("../FinalMyGrowth/Button/ButtonToMain");
+var _buttonToMainDefault = parcelHelpers.interopDefault(_buttonToMain);
+const BadgesAndAchievements = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "BadgesAndAchievements",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "div",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "overlap",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper",
+                            children: "Achievement 1"
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 14,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "overlap-group",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "p",
+                                    children: "Lorem ipsum dolor sit amet consectetur."
+                                }, void 0, false, {
+                                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                    lineNumber: 16,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "p",
+                                    children: "Lorem ipsum dolor sit amet consectetur."
+                                }, void 0, false, {
+                                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                    lineNumber: 17,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 15,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "overlap-2",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "group",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "ellipse"
+                                    }, void 0, false, {
+                                        fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                        lineNumber: 21,
+                                        columnNumber: 15
+                                    }, undefined)
+                                }, void 0, false, {
+                                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                    lineNumber: 20,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "group",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "ellipse"
+                                    }, void 0, false, {
+                                        fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                        lineNumber: 24,
+                                        columnNumber: 15
+                                    }, undefined)
+                                }, void 0, false, {
+                                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                    lineNumber: 23,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 19,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                    lineNumber: 13,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "overlap-3",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-2",
+                            children: "Badge 1"
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 29,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "ellipse-wrapper",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "ellipse-2"
+                            }, void 0, false, {
+                                fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                lineNumber: 31,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 30,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            className: "text-wrapper-3",
+                            children: "Lorem ipsum dolor sit amet consectetur."
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 33,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-4",
+                            children: "DD/MM/YYYY"
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 34,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                    lineNumber: 28,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "overlap-4",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-5",
+                            children: "Badge 1"
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 37,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "ellipse-wrapper",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "ellipse-2"
+                            }, void 0, false, {
+                                fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                lineNumber: 39,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 38,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            className: "text-wrapper-6",
+                            children: "Lorem ipsum dolor sit amet consectetur."
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 41,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-7",
+                            children: "DD/MM/YYYY"
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 42,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                    lineNumber: 36,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "overlap-5",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-2",
+                            children: "Badge 1"
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 45,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "ellipse-wrapper",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "ellipse-2"
+                            }, void 0, false, {
+                                fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                lineNumber: 47,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 46,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            className: "text-wrapper-3",
+                            children: "Lorem ipsum dolor sit amet consectetur."
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 49,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-4",
+                            children: "DD/MM/YYYY"
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 50,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                    lineNumber: 44,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "overlap-6",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-2",
+                            children: "Badge 1"
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 53,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            className: "text-wrapper-3",
+                            children: "Lorem ipsum dolor sit amet consectetur."
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 54,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-4",
+                            children: "DD/MM/YYYY"
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 55,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "overlap-wrapper",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "overlap-7",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "div-wrapper",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "ellipse-3"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                            lineNumber: 59,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                        lineNumber: 58,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _solidStatusLock4.SolidStatusLock4), {
+                                        className: "solid-status-lock"
+                                    }, void 0, false, {
+                                        fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                        lineNumber: 61,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                lineNumber: 57,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 56,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                    lineNumber: 52,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "overlap-8",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper",
+                            children: "Achievement 2"
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 66,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "overlap-group",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "p",
+                                    children: "Lorem ipsum dolor sit amet consectetur."
+                                }, void 0, false, {
+                                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                    lineNumber: 68,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "p",
+                                    children: "Lorem ipsum dolor sit amet consectetur."
+                                }, void 0, false, {
+                                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                    lineNumber: 69,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 67,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "overlap-2",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "group",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "ellipse"
+                                    }, void 0, false, {
+                                        fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                        lineNumber: 73,
+                                        columnNumber: 15
+                                    }, undefined)
+                                }, void 0, false, {
+                                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                    lineNumber: 72,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "group",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "ellipse"
+                                    }, void 0, false, {
+                                        fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                        lineNumber: 76,
+                                        columnNumber: 15
+                                    }, undefined)
+                                }, void 0, false, {
+                                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                    lineNumber: 75,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 71,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                    lineNumber: 65,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "overlap-9",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper",
+                            children: "Achievement 3"
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 81,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            className: "text-wrapper-8",
+                            children: "Lorem ipsum dolor sit amet consectetur."
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 82,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "group-2",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "ellipse"
+                            }, void 0, false, {
+                                fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                lineNumber: 84,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 83,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                    lineNumber: 80,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "overlap-10",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper",
+                            children: "Achievement 4"
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 88,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            className: "text-wrapper-8",
+                            children: "Lorem ipsum dolor sit amet consectetur."
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 89,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "group-2",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "ellipse"
+                            }, void 0, false, {
+                                fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                lineNumber: 91,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 90,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                    lineNumber: 87,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "overlap-11",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper",
+                            children: "Achievement 5"
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 95,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            className: "text-wrapper-8",
+                            children: "Lorem ipsum dolor sit amet consectetur."
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 96,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "group-2",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "ellipse"
+                            }, void 0, false, {
+                                fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                lineNumber: 98,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 97,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                    lineNumber: 94,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "overlap-12",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper",
+                            children: "Achievement 6"
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 102,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            className: "text-wrapper-8",
+                            children: "Lorem ipsum dolor sit amet consectetur."
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 103,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "overlap-group-wrapper",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "overlap-group-2",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "group-3",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "ellipse-4"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                            lineNumber: 107,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                        lineNumber: 106,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _solidStatusLock2.SolidStatusLock2), {
+                                        className: "solid-status-lock-2"
+                                    }, void 0, false, {
+                                        fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                        lineNumber: 109,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                lineNumber: 105,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 104,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                    lineNumber: 101,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "overlap-13",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper",
+                            children: "Achievement 7"
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 114,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            className: "text-wrapper-8",
+                            children: "Lorem ipsum dolor sit amet consectetur."
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 115,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "group-4",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "overlap-group-2",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "group-3",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "ellipse-4"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                            lineNumber: 119,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                        lineNumber: 118,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _solidStatusLock2.SolidStatusLock2), {
+                                        className: "solid-status-lock-2"
+                                    }, void 0, false, {
+                                        fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                        lineNumber: 121,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                lineNumber: 117,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 116,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                    lineNumber: 113,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "overlap-14",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper",
+                            children: "Achievement 8"
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 126,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            className: "text-wrapper-8",
+                            children: "Lorem ipsum dolor sit amet consectetur."
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 127,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "group-4",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "overlap-group-2",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "group-3",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "ellipse-4"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                            lineNumber: 131,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                        lineNumber: 130,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _solidStatusLock2.SolidStatusLock2), {
+                                        className: "solid-status-lock-2"
+                                    }, void 0, false, {
+                                        fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                        lineNumber: 133,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                lineNumber: 129,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 128,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                    lineNumber: 125,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "overlap-15",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "text-wrapper-9",
+                        children: "Achievements"
+                    }, void 0, false, {
+                        fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                        lineNumber: 138,
+                        columnNumber: 11
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                    lineNumber: 137,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "rectangle"
+                }, void 0, false, {
+                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                    lineNumber: 140,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "rectangle-2"
+                }, void 0, false, {
+                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                    lineNumber: 141,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "rectangle-3"
+                }, void 0, false, {
+                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                    lineNumber: 142,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "rectangle-4"
+                }, void 0, false, {
+                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                    lineNumber: 143,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "overlap-16",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "text-wrapper-10",
+                        children: "Badges"
+                    }, void 0, false, {
+                        fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                        lineNumber: 145,
+                        columnNumber: 11
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                    lineNumber: 144,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "overlap-17",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "element-circles-attended",
+                            children: [
+                                "04",
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                    lineNumber: 150,
+                                    columnNumber: 13
+                                }, undefined),
+                                "Circles ",
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                    lineNumber: 151,
+                                    columnNumber: 21
+                                }, undefined),
+                                "Attended"
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 148,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            className: "img",
+                            alt: "Ellipse",
+                            src: "../../../imgBadges/ellipse-541.jpg"
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 154,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                    lineNumber: 147,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    className: "ellipse-5",
+                    alt: "Ellipse",
+                    src: "/img/ellipse-546.jpg"
+                }, void 0, false, {
+                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                    lineNumber: 156,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    className: "ellipse-6",
+                    alt: "Ellipse",
+                    src: "/../../../imgBadges/ellipse-547.jpg"
+                }, void 0, false, {
+                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                    lineNumber: 157,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    className: "ellipse-7",
+                    alt: "Ellipse",
+                    src: "../../../imgBadges/ellipse-548.jpg"
+                }, void 0, false, {
+                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                    lineNumber: 158,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    className: "ellipse-8",
+                    alt: "Ellipse",
+                    src: "../../../imgBadges/ellipse-549.jpg"
+                }, void 0, false, {
+                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                    lineNumber: 159,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "text-wrapper-11",
+                    children: "0-5"
+                }, void 0, false, {
+                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                    lineNumber: 160,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "text-wrapper-12",
+                    children: "Circles Attended"
+                }, void 0, false, {
+                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                    lineNumber: 161,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "text-wrapper-13",
+                    children: "6-10"
+                }, void 0, false, {
+                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                    lineNumber: 162,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "text-wrapper-14",
+                    children: "15-20"
+                }, void 0, false, {
+                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                    lineNumber: 163,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "text-wrapper-15",
+                    children: "11-15"
+                }, void 0, false, {
+                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                    lineNumber: 164,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "badges-achievements",
+                    children: "Badges & Achievements"
+                }, void 0, false, {
+                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                    lineNumber: 165,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _buttonToMainDefault.default), {}, void 0, false, {
+                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                    lineNumber: 166,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    className: "vector",
+                    alt: "Vector",
+                    src: "../../../imgBadges/vector-2.jpg"
+                }, void 0, false, {
+                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                    lineNumber: 167,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "overlap-18",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "group-5",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "group-wrapper",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "group-6",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "overlap-group-3",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "overlap-19",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                    className: "ellipse-9"
+                                                }, void 0, false, {
+                                                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                                    lineNumber: 174,
+                                                    columnNumber: 21
+                                                }, undefined)
+                                            }, void 0, false, {
+                                                fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                                lineNumber: 173,
+                                                columnNumber: 19
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "overlap-20",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                    className: "ellipse-9"
+                                                }, void 0, false, {
+                                                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                                    lineNumber: 177,
+                                                    columnNumber: 21
+                                                }, undefined)
+                                            }, void 0, false, {
+                                                fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                                lineNumber: 176,
+                                                columnNumber: 19
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                        lineNumber: 172,
+                                        columnNumber: 17
+                                    }, undefined)
+                                }, void 0, false, {
+                                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                    lineNumber: 171,
+                                    columnNumber: 15
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                lineNumber: 170,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 169,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-16",
+                            children: "Name"
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 183,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "overlap-21",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "rectangle-5"
+                                }, void 0, false, {
+                                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                    lineNumber: 185,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                    className: "vector-2",
+                                    alt: "Vector",
+                                    src: "../../../img/vector-1.jpg"
+                                }, void 0, false, {
+                                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                    lineNumber: 186,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "text-wrapper-17",
+                                    children: "0"
+                                }, void 0, false, {
+                                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                    lineNumber: 187,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 184,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "group-7",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "overlap-22",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "group-8",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "overlap-group-4",
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                    className: "ellipse-10"
+                                                }, void 0, false, {
+                                                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                                    lineNumber: 193,
+                                                    columnNumber: 19
+                                                }, undefined),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                    className: "ellipse-11"
+                                                }, void 0, false, {
+                                                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                                    lineNumber: 194,
+                                                    columnNumber: 19
+                                                }, undefined)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                            lineNumber: 192,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                        lineNumber: 191,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "text-wrapper-18",
+                                        children: "c"
+                                    }, void 0, false, {
+                                        fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                        lineNumber: 197,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                lineNumber: 190,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 189,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "overlap-23",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "growth-circles",
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                            className: "span",
+                                            children: "Growth"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                            lineNumber: 202,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                            className: "text-wrapper-19",
+                                            children: "Circles"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                            lineNumber: 203,
+                                            columnNumber: 15
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                    lineNumber: 201,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                    className: "vector-3",
+                                    alt: "Vector",
+                                    src: "../../../img/vector.jpg"
+                                }, void 0, false, {
+                                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                                    lineNumber: 205,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                            lineNumber: 200,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+                    lineNumber: 168,
+                    columnNumber: 9
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+            lineNumber: 12,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/screens/BadgesAndAchievements/BadgesAndAchievements.jsx",
+        lineNumber: 11,
+        columnNumber: 5
+    }, undefined);
+};
+_c = BadgesAndAchievements;
+exports.default = BadgesAndAchievements;
+var _c;
+$RefreshReg$(_c, "BadgesAndAchievements");
+
+  $parcel$ReactRefreshHelpers$b1cd.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../../iconsBadges/SolidStatusLock2":"gx2Ej","../../../iconsBadges/SolidStatusLock4":"l05DP","./style.css":"jatNF","../FinalMyGrowth/Button/ButtonToMain":"oQJVD","@parcel/transformer-js/src/esmodule-helpers.js":"9FYyo","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"77JU4"}],"gx2Ej":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "SolidStatusLock2", ()=>(0, _solidStatusLock2.SolidStatusLock2));
+var _solidStatusLock2 = require("./SolidStatusLock2");
+
+},{"./SolidStatusLock2":"k4Mo6","@parcel/transformer-js/src/esmodule-helpers.js":"9FYyo"}],"k4Mo6":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$f82a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$f82a.prelude(module);
+
+try {
+/*
+We're constantly improving the code you see. 
+Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
+*/ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "SolidStatusLock2", ()=>SolidStatusLock2);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+const SolidStatusLock2 = ({ className })=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+        className: `solid-status-lock-2 ${className}`,
+        fill: "none",
+        height: "23",
+        viewBox: "0 0 23 23",
+        width: "23",
+        xmlns: "http://www.w3.org/2000/svg",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+            className: "path",
+            clipRule: "evenodd",
+            d: "M7.36406 7.44509L7.67854 10.2754L7.04216 10.3262C6.15474 10.397 5.43012 11.0641 5.28626 11.9426C4.95471 13.9675 4.95471 16.0327 5.28626 18.0576C5.43012 18.9361 6.15474 19.6032 7.04216 19.674L8.41361 19.7835C10.5789 19.9564 12.7545 19.9564 14.9198 19.7835L16.2913 19.674C17.1787 19.6032 17.9033 18.9361 18.0472 18.0576C18.3787 16.0327 18.3787 13.9675 18.0472 11.9426C17.9033 11.0641 17.1787 10.397 16.2913 10.3262L15.6548 10.2753L15.9693 7.44509C16.0064 7.11144 16.0064 6.77471 15.9693 6.44107L15.9484 6.25325C15.7271 4.26097 14.1608 2.68462 12.17 2.45041C11.8356 2.41106 11.4977 2.41106 11.1633 2.45041C9.17251 2.68462 7.60629 4.26097 7.38493 6.25325L7.36406 6.44107C7.32699 6.77471 7.32699 7.11144 7.36406 7.44509ZM12.0094 3.81599C11.7817 3.7892 11.5517 3.7892 11.324 3.81599C9.96857 3.97545 8.90223 5.04868 8.75152 6.40509L8.73065 6.59291C8.70479 6.82564 8.70479 7.06052 8.73065 7.29324L9.05038 10.1708C10.7928 10.0591 12.5406 10.0591 14.283 10.1708L14.6027 7.29324C14.6286 7.06052 14.6286 6.82564 14.6027 6.59291L14.5818 6.40509C14.4311 5.04868 13.3648 3.97545 12.0094 3.81599ZM11.6667 13.6251C10.9073 13.6251 10.2917 14.2407 10.2917 15.0001C10.2917 15.7595 10.9073 16.3751 11.6667 16.3751C12.4261 16.3751 13.0417 15.7595 13.0417 15.0001C13.0417 14.2407 12.4261 13.6251 11.6667 13.6251Z",
+            fill: "#424242",
+            fillRule: "evenodd"
+        }, void 0, false, {
+            fileName: "iconsBadges/SolidStatusLock2/SolidStatusLock2.jsx",
+            lineNumber: 18,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false, {
+        fileName: "iconsBadges/SolidStatusLock2/SolidStatusLock2.jsx",
+        lineNumber: 10,
+        columnNumber: 5
+    }, undefined);
+};
+_c = SolidStatusLock2;
+var _c;
+$RefreshReg$(_c, "SolidStatusLock2");
+
+  $parcel$ReactRefreshHelpers$f82a.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"9FYyo","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"77JU4"}],"l05DP":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "SolidStatusLock4", ()=>(0, _solidStatusLock4.SolidStatusLock4));
+var _solidStatusLock4 = require("./SolidStatusLock4");
+
+},{"./SolidStatusLock4":"aVwQ3","@parcel/transformer-js/src/esmodule-helpers.js":"9FYyo"}],"aVwQ3":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$6691 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$6691.prelude(module);
+
+try {
+/*
+We're constantly improving the code you see. 
+Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
+*/ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "SolidStatusLock4", ()=>SolidStatusLock4);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+const SolidStatusLock4 = ({ className })=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+        className: `solid-status-lock-4 ${className}`,
+        fill: "none",
+        height: "31",
+        viewBox: "0 0 31 31",
+        width: "31",
+        xmlns: "http://www.w3.org/2000/svg",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+            className: "path",
+            clipRule: "evenodd",
+            d: "M9.50949 10.0241L9.94975 13.9865L9.05883 14.0576C7.81644 14.1568 6.80197 15.0907 6.60057 16.3207C6.1364 19.1554 6.1364 22.0468 6.60057 24.8816C6.80197 26.1115 7.81644 27.0454 9.05883 27.1446L10.9789 27.2979C14.0103 27.5399 17.0562 27.5399 20.0876 27.2979L22.0076 27.1446C23.25 27.0454 24.2645 26.1115 24.4659 24.8816C24.93 22.0468 24.93 19.1554 24.4659 16.3207C24.2645 15.0907 23.25 14.1568 22.0076 14.0576L21.1166 13.9865L21.5568 10.0241C21.6087 9.55699 21.6087 9.08558 21.5568 8.61847L21.5276 8.35552C21.2177 5.56634 19.025 3.35944 16.2379 3.03155C15.7697 2.97646 15.2966 2.97646 14.8284 3.03155C12.0413 3.35944 9.84862 5.56634 9.53871 8.35552L9.50949 8.61847C9.45759 9.08558 9.45759 9.55699 9.50949 10.0241ZM16.0129 4.94336C15.6942 4.90586 15.3721 4.90586 15.0534 4.94336C13.1558 5.1666 11.6629 6.66913 11.4519 8.5681L11.4227 8.83105C11.3865 9.15687 11.3865 9.4857 11.4227 9.81152L11.8703 13.8401C14.3097 13.6837 16.7566 13.6837 19.196 13.8401L19.6436 9.81152C19.6798 9.4857 19.6798 9.15687 19.6436 8.83105L19.6144 8.5681C19.4034 6.66913 17.9105 5.1666 16.0129 4.94336ZM15.5332 18.6761C14.47 18.6761 13.6082 19.538 13.6082 20.6011C13.6082 21.6643 14.47 22.5261 15.5332 22.5261C16.5963 22.5261 17.4582 21.6643 17.4582 20.6011C17.4582 19.538 16.5963 18.6761 15.5332 18.6761Z",
+            fill: "#424242",
+            fillRule: "evenodd"
+        }, void 0, false, {
+            fileName: "iconsBadges/SolidStatusLock4/SolidStatusLock4.jsx",
+            lineNumber: 18,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false, {
+        fileName: "iconsBadges/SolidStatusLock4/SolidStatusLock4.jsx",
+        lineNumber: 10,
+        columnNumber: 5
+    }, undefined);
+};
+_c = SolidStatusLock4;
+var _c;
+$RefreshReg$(_c, "SolidStatusLock4");
+
+  $parcel$ReactRefreshHelpers$6691.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"9FYyo","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"77JU4"}],"jatNF":[function() {},{}],"aH5SQ":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$cf74 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$cf74.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "MyWellbeing", ()=>MyWellbeing);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _styleCss = require("./style.css");
+var _buttonToMain = require("../FinalMyGrowth/Button/ButtonToMain");
+var _buttonToMainDefault = parcelHelpers.interopDefault(_buttonToMain);
+const MyWellbeing = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "MyWellbeing",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "div",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "text-wrapper",
+                    children: "My Wellbeing"
+                }, void 0, false, {
+                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                    lineNumber: 9,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _buttonToMainDefault.default), {}, void 0, false, {
+                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                    lineNumber: 10,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "overlap",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "overlap-group",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "text-wrapper-2",
+                                children: "Average Rating"
+                            }, void 0, false, {
+                                fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                lineNumber: 13,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                            lineNumber: 12,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            className: "element",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                    className: "span",
+                                    children: "32"
+                                }, void 0, false, {
+                                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                    lineNumber: 16,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                    className: "text-wrapper-3",
+                                    children: "/ 40"
+                                }, void 0, false, {
+                                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                    lineNumber: 17,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                            lineNumber: 15,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            className: "your-average-rating",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                    className: "text-wrapper-4",
+                                    children: "Your\xa0\xa0"
+                                }, void 0, false, {
+                                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                    lineNumber: 20,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                    className: "text-wrapper-5",
+                                    children: "average"
+                                }, void 0, false, {
+                                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                    lineNumber: 21,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                    className: "text-wrapper-4",
+                                    children: " rating "
+                                }, void 0, false, {
+                                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                    lineNumber: 22,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                            lineNumber: 19,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-6",
+                            children: "Individually"
+                        }, void 0, false, {
+                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                            lineNumber: 24,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-7",
+                            children: "8"
+                        }, void 0, false, {
+                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                            lineNumber: 25,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-8",
+                            children: "Interpersonally"
+                        }, void 0, false, {
+                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                            lineNumber: 26,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-9",
+                            children: "8"
+                        }, void 0, false, {
+                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                            lineNumber: 27,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-10",
+                            children: "Socially"
+                        }, void 0, false, {
+                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                            lineNumber: 28,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-11",
+                            children: "8"
+                        }, void 0, false, {
+                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                            lineNumber: 29,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-12",
+                            children: "Overall"
+                        }, void 0, false, {
+                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                            lineNumber: 30,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-13",
+                            children: "8"
+                        }, void 0, false, {
+                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                            lineNumber: 31,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            className: "line",
+                            alt: "Line",
+                            src: "https://c.animaapp.com/xGBwADmS/img/line-208.svg"
+                        }, void 0, false, {
+                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                            lineNumber: 32,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-14",
+                            children: "Scores"
+                        }, void 0, false, {
+                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                            lineNumber: 33,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                    lineNumber: 11,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "overlap-2",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "group",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "group-wrapper",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "overlap-group-wrapper",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "overlap-group-2",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "ellipse-wrapper",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                    className: "ellipse"
+                                                }, void 0, false, {
+                                                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                                    lineNumber: 41,
+                                                    columnNumber: 21
+                                                }, undefined)
+                                            }, void 0, false, {
+                                                fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                                lineNumber: 40,
+                                                columnNumber: 19
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "div-wrapper",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                    className: "ellipse"
+                                                }, void 0, false, {
+                                                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                                    lineNumber: 44,
+                                                    columnNumber: 21
+                                                }, undefined)
+                                            }, void 0, false, {
+                                                fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                                lineNumber: 43,
+                                                columnNumber: 19
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                        lineNumber: 39,
+                                        columnNumber: 17
+                                    }, undefined)
+                                }, void 0, false, {
+                                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                    lineNumber: 38,
+                                    columnNumber: 15
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                lineNumber: 37,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                            lineNumber: 36,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-15",
+                            children: "Name"
+                        }, void 0, false, {
+                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                            lineNumber: 50,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "overlap-3",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "rectangle"
+                                }, void 0, false, {
+                                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                    lineNumber: 52,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                    className: "img",
+                                    alt: "Vector",
+                                    src: "https://c.animaapp.com/Rm7LACSI/img/vector-4.svg"
+                                }, void 0, false, {
+                                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                    lineNumber: 53,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "text-wrapper-16",
+                                    children: "0"
+                                }, void 0, false, {
+                                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                    lineNumber: 54,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                            lineNumber: 51,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "overlap-wrapper",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "overlap-4",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "group-2",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "overlap-group-3",
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                    className: "ellipse-2"
+                                                }, void 0, false, {
+                                                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                                    lineNumber: 60,
+                                                    columnNumber: 19
+                                                }, undefined),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                    className: "ellipse-3"
+                                                }, void 0, false, {
+                                                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                                    lineNumber: 61,
+                                                    columnNumber: 19
+                                                }, undefined)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                            lineNumber: 59,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                        lineNumber: 58,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "text-wrapper-17",
+                                        children: "c"
+                                    }, void 0, false, {
+                                        fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                        lineNumber: 64,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                lineNumber: 57,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                            lineNumber: 56,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "overlap-5",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "growth-circles",
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                            className: "span",
+                                            children: "Growth"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                            lineNumber: 69,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                            className: "text-wrapper-18",
+                                            children: "Circles"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                            lineNumber: 70,
+                                            columnNumber: 15
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                    lineNumber: 68,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                    className: "vector-2",
+                                    alt: "Vector",
+                                    src: "https://c.animaapp.com/Rm7LACSI/img/vector-3.svg"
+                                }, void 0, false, {
+                                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                    lineNumber: 72,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                            lineNumber: 67,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                    lineNumber: 35,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    className: "vector-3",
+                    alt: "Vector",
+                    src: "https://c.animaapp.com/Rm7LACSI/img/vector-1.svg"
+                }, void 0, false, {
+                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                    lineNumber: 75,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "overlap-6",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "overlap-group",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "text-wrapper-19",
+                                children: "Wellbeing Comparison"
+                            }, void 0, false, {
+                                fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                lineNumber: 78,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                            lineNumber: 77,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "overlap-7",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "text-wrapper-20",
+                                    children: "0"
+                                }, void 0, false, {
+                                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                    lineNumber: 81,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "text-wrapper-21",
+                                    children: "2"
+                                }, void 0, false, {
+                                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                    lineNumber: 82,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "text-wrapper-22",
+                                    children: "4"
+                                }, void 0, false, {
+                                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                    lineNumber: 83,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "text-wrapper-23",
+                                    children: "6"
+                                }, void 0, false, {
+                                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                    lineNumber: 84,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "text-wrapper-24",
+                                    children: "8"
+                                }, void 0, false, {
+                                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                    lineNumber: 85,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "text-wrapper-25",
+                                    children: "10"
+                                }, void 0, false, {
+                                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                    lineNumber: 86,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "text-wrapper-26",
+                                    children: "Jan"
+                                }, void 0, false, {
+                                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                    lineNumber: 87,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "text-wrapper-27",
+                                    children: "Feb"
+                                }, void 0, false, {
+                                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                    lineNumber: 88,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "text-wrapper-28",
+                                    children: "Mar"
+                                }, void 0, false, {
+                                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                    lineNumber: 89,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "text-wrapper-29",
+                                    children: "Apr"
+                                }, void 0, false, {
+                                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                    lineNumber: 90,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "text-wrapper-30",
+                                    children: "May"
+                                }, void 0, false, {
+                                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                    lineNumber: 91,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "text-wrapper-31",
+                                    children: "Jun"
+                                }, void 0, false, {
+                                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                    lineNumber: 92,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "text-wrapper-32",
+                                    children: "Jul"
+                                }, void 0, false, {
+                                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                    lineNumber: 93,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "text-wrapper-33",
+                                    children: "Before"
+                                }, void 0, false, {
+                                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                    lineNumber: 94,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "text-wrapper-34",
+                                    children: "After"
+                                }, void 0, false, {
+                                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                    lineNumber: 95,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "text-wrapper-35",
+                                    children: "Aug"
+                                }, void 0, false, {
+                                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                    lineNumber: 96,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "text-wrapper-36",
+                                    children: "Sep"
+                                }, void 0, false, {
+                                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                    lineNumber: 97,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "text-wrapper-37",
+                                    children: "Oct"
+                                }, void 0, false, {
+                                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                    lineNumber: 98,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "text-wrapper-38",
+                                    children: "Nov"
+                                }, void 0, false, {
+                                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                    lineNumber: 99,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "text-wrapper-39",
+                                    children: "Dec"
+                                }, void 0, false, {
+                                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                    lineNumber: 100,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "overlap-8",
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                            className: "vector-4",
+                                            alt: "Vector",
+                                            src: "https://c.animaapp.com/xGBwADmS/img/vector-325.svg"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                            lineNumber: 102,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                            className: "vector-5",
+                                            alt: "Vector",
+                                            src: "https://c.animaapp.com/xGBwADmS/img/vector-325.svg"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                            lineNumber: 103,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                            className: "vector-6",
+                                            alt: "Vector",
+                                            src: "https://c.animaapp.com/xGBwADmS/img/vector-325.svg"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                            lineNumber: 104,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                            className: "vector-7",
+                                            alt: "Vector",
+                                            src: "https://c.animaapp.com/xGBwADmS/img/vector-325.svg"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                            lineNumber: 105,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                            className: "vector-8",
+                                            alt: "Vector",
+                                            src: "https://c.animaapp.com/xGBwADmS/img/vector-325.svg"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                            lineNumber: 106,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                            className: "vector-9",
+                                            alt: "Vector",
+                                            src: "https://c.animaapp.com/xGBwADmS/img/vector-325.svg"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                            lineNumber: 107,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                            className: "vector-10",
+                                            alt: "Vector",
+                                            src: "https://c.animaapp.com/xGBwADmS/img/vector-325.svg"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                            lineNumber: 108,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                            className: "vector-11",
+                                            alt: "Vector",
+                                            src: "https://c.animaapp.com/xGBwADmS/img/vector-325.svg"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                            lineNumber: 109,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                            className: "vector-12",
+                                            alt: "Vector",
+                                            src: "https://c.animaapp.com/xGBwADmS/img/vector-325.svg"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                            lineNumber: 110,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                            className: "vector-13",
+                                            alt: "Vector",
+                                            src: "https://c.animaapp.com/xGBwADmS/img/vector-325.svg"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                            lineNumber: 111,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "rectangle-2"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                            lineNumber: 112,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "rectangle-3"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                            lineNumber: 113,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "rectangle-4"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                            lineNumber: 114,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "rectangle-5"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                            lineNumber: 115,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "rectangle-6"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                            lineNumber: 116,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "rectangle-7"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                            lineNumber: 117,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "rectangle-8"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                            lineNumber: 118,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "rectangle-9"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                            lineNumber: 119,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "rectangle-10"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                            lineNumber: 120,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "rectangle-11"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                            lineNumber: 121,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "rectangle-12"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                            lineNumber: 122,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "rectangle-13"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                            lineNumber: 123,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "rectangle-14"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                            lineNumber: 124,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                            className: "vector-14",
+                                            alt: "Vector",
+                                            src: "https://c.animaapp.com/xGBwADmS/img/vector-330.svg"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                            lineNumber: 125,
+                                            columnNumber: 15
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                    lineNumber: 101,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                    className: "vector-15",
+                                    alt: "Vector",
+                                    src: "https://c.animaapp.com/xGBwADmS/img/vector-332.svg"
+                                }, void 0, false, {
+                                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                    lineNumber: 127,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "ellipse-4"
+                                }, void 0, false, {
+                                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                                    lineNumber: 128,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                            lineNumber: 80,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+                    lineNumber: 76,
+                    columnNumber: 9
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+            lineNumber: 8,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/screens/MyWellbeing/MyWellbeing.jsx",
+        lineNumber: 7,
+        columnNumber: 5
+    }, undefined);
+};
+_c = MyWellbeing;
+exports.default = MyWellbeing;
+var _c;
+$RefreshReg$(_c, "MyWellbeing");
+
+  $parcel$ReactRefreshHelpers$cf74.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./style.css":"lhm44","../FinalMyGrowth/Button/ButtonToMain":"oQJVD","@parcel/transformer-js/src/esmodule-helpers.js":"9FYyo","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"77JU4"}],"lhm44":[function() {},{}]},["LoP7l","4Q7dv","d8Dch"], "d8Dch", "parcelRequireb8e7")
 
 //# sourceMappingURL=index.b4b6dfad.js.map

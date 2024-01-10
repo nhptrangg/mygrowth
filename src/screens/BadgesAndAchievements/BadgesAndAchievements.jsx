@@ -5,6 +5,7 @@ import "./style.css";
 import ButtonToMain from "../FinalMyGrowth/Button/ButtonToMain";
 
 
+
 export const BadgesAndAchievements = () => {
   return (
     <div className="BadgesAndAchievements">
@@ -152,8 +153,8 @@ export const BadgesAndAchievements = () => {
           </div>
           <img className="img" alt="Ellipse" src="../../../imgBadges/ellipse-541.jpg" />
         </div>
-        <img className="ellipse-5" alt="Ellipse" src="../../../imgBadges/ellipse-546.jpg" />
-        <img className="ellipse-6" alt="Ellipse" src="../../../imgBadges/ellipse-547.jpg" />
+        <img className="ellipse-5" alt="Ellipse" src="/img/ellipse-546.jpg" />
+        <img className="ellipse-6" alt="Ellipse" src="/../../../imgBadges/ellipse-547.jpg" />
         <img className="ellipse-7" alt="Ellipse" src="../../../imgBadges/ellipse-548.jpg" />
         <img className="ellipse-8" alt="Ellipse" src="../../../imgBadges/ellipse-549.jpg" />
         <div className="text-wrapper-11">0-5</div>
